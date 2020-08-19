@@ -7,4 +7,5 @@ public class PaddleData : ScriptableObject
 {
     public float moveSpeed = 150.0f;
     public Sprite paddleSprite;
+    public float paddleWidth;
 }
