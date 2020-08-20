@@ -9,7 +9,8 @@ namespace BrickBreak.Paddles
     {
         public PaddleData paddleData;
         [SerializeField] private Rigidbody2D paddleRigidBody;
-        public bool usePhysics = true;
+        [SerializeField] private bool canMove = true;
+        [SerializeField] private float screenBoundary;
 
         #region Input
 
@@ -25,20 +26,24 @@ namespace BrickBreak.Paddles
         private void Update()
         {
             _horizontalInput = Input.GetAxisRaw("Horizontal"); // Read input in update so we don't miss any inputs
-            if(usePhysics)
-                return;
-            Vector2 moveVector = new Vector2(_horizontalInput * paddleData.moveSpeed, 0);
-            transform.Translate(moveVector.x * Time.deltaTime, moveVector.y, 0);
         }
 
         private void FixedUpdate()
         {
-            if(!usePhysics)
+           MovePaddle();
+        }
+
+        private void MovePaddle()
+        {
+            if(!canMove)
                 return;
             
             Vector2 moveVector = new Vector2(_horizontalInput,0).normalized;
-            paddleRigidBody.MovePosition((Vector2) transform.position + moveVector * (paddleData.moveSpeed * Time.deltaTime));
 
+            Vector2 position = (Vector2)transform.position + moveVector * (paddleData.moveSpeed * Time.deltaTime);
+            position.x = Mathf.Clamp(position.x, -screenBoundary, screenBoundary);
+
+            paddleRigidBody.MovePosition(position);
         }
     }
 }
