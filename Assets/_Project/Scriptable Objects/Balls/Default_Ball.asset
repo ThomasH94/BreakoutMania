@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f50a19a9bced54649ac5e06dbd30413f, type: 3}
-  m_Name: DefaultPaddle
+  m_Script: {fileID: 11500000, guid: c2e93b7953a515e4f8b1d379529d9631, type: 3}
+  m_Name: Default_Ball
   m_EditorClassIdentifier: 
-  moveSpeed: 7.5
-  paddleSprite: {fileID: 7179971348146320810, guid: 8c8bee537398ba145b35ea7c58beead2,
-    type: 3}
-  paddleWidth: 1
+  moveSpeed: 4
+  ballSprite: {fileID: 0}

@@ -17,7 +17,7 @@ namespace BrickBreak.Paddles
         #endregion
 
         #region Screen
-        [SerializeField] private float screenOffset;
+        [SerializeField] private float screenOffset = 0.0f;
         private float _screenBoundary;
         #endregion
 
