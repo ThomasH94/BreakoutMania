@@ -25,6 +25,9 @@
               <e p="PaddleController.cs" t="Include" />
               <e p="PaddleData.cs" t="Include" />
             </e>
+            <e p="Scoring Systems" t="Include">
+              <e p="ScoreController.cs" t="Include" />
+            </e>
             <e p="Utility" t="Include">
               <e p="Singleton.cs" t="Include" />
             </e>

@@ -9,7 +9,7 @@ public class Brick : MonoBehaviour, IDamagable
     // Could have brick types that give you points, light up, and maybe stuff like glass that subtracts points
 
     #region Events
-    public event Action OnBrickDestroyed;
+    public event Action OnBrickDestroyed = delegate { };
     #endregion
 
     public BrickData _brickData;
