@@ -24,6 +24,9 @@
             <e p="Event Systems" t="Include">
               <e p="EventManager.cs" t="Include" />
             </e>
+            <e p="GameLevel Systems" t="Include">
+              <e p="GameLevelData.cs" t="Include" />
+            </e>
             <e p="Paddle System" t="Include">
               <e p="PaddleController.cs" t="Include" />
               <e p="PaddleData.cs" t="Include" />
@@ -33,6 +36,8 @@
               <e p="ScoreController.cs" t="Include" />
             </e>
             <e p="Utility" t="Include">
+              <e p="GridCreator.cs" t="Include" />
+              <e p="ISetupable.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>
           </e>

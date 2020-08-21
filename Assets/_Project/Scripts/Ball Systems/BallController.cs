@@ -17,8 +17,6 @@ public class BallController : MonoBehaviour
     void Start()
     {
         SetupBall();
-        moveSpeed *= -1;
-
         ballRigidBody.AddForce(Vector2.up * 200);
     }
 
@@ -39,11 +37,11 @@ public class BallController : MonoBehaviour
         if (paddle)
         {
             moveSpeed = Mathf.Abs(moveSpeed);
-            float horizontalHit = HitFactor(transform.position, 
+            float hitForce = HitFactor(transform.position, 
                 collidedObj.transform.position, collidedObj.collider.bounds.size.x);
-            Debug.Log($"Hit {horizontalHit}");
+            Debug.Log($"Hitforce: {hitForce}");
             
-            Vector2 hitDirection = new Vector2(horizontalHit, 1).normalized;
+            Vector2 hitDirection = new Vector2(hitForce, 1).normalized;
             ballRigidBody.velocity = hitDirection * moveSpeed;
         }
     }
@@ -60,7 +58,7 @@ public class BallController : MonoBehaviour
     private float HitFactor(Vector2 ballPosition, Vector2 paddlePosition, float paddleWidth)
     {
         // Visual example:
-        // || 1  -0.5  0  0.5   1  <- x Position after subtraction
+        // || -0.5     0     0.5     <- x Position after subtraction
         // || ===================  <- Paddle
         return (ballPosition.x - paddlePosition.x) / paddleWidth;
     }

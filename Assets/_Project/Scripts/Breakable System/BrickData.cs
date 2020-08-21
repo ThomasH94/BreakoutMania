@@ -7,4 +7,7 @@ public class BrickData : ScriptableObject
 {
     public int Health;
     public Sprite brickSprite;
+    public Color brickColor;
+    public Sprite[] crumbleSprites;
+    public int scoreAmount;
 }

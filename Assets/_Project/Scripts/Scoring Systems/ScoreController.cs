@@ -5,7 +5,7 @@ public class ScoreController : Singleton<ScoreController>
 {
     [SerializeField] private Score score;
 
-    private void UpdateScore(int scoreAmount)
+    public void UpdateScore(int scoreAmount)
     {
         score.CurrentScore += scoreAmount;
     }

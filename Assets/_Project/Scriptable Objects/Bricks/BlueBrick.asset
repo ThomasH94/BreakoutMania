@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f331f9c7ec0f72a4894a45111388d0a7, type: 3}
-  m_Name: RedBrick
+  m_Name: BlueBrick
   m_EditorClassIdentifier: 
-  Health: 1
+  Health: 0
   brickSprite: {fileID: 0}
-  scoreAmount: 10
+  brickColor: {r: 0, g: 0, b: 0, a: 0}
+  crumbleSprites: []
+  scoreAmount: 0

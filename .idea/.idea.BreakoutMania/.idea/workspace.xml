@@ -21,14 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,6 +49,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,18 +66,21 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventTriggerTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597874108480</updated>
       <workItem from="1597874114059" duration="3921000" />
-      <workItem from="1597982727492" duration="7846000" />
+      <workItem from="1597982727492" duration="11804000" />
+      <workItem from="1598042900468" duration="3479000" />
     </task>
     <servers />
   </component>
@@ -227,24 +235,5 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597982830139" />
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597909080383" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs</url>
-          <line>41</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" initialLine="33">
-            <startOffsets>
-              <option value="1031" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1168" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
