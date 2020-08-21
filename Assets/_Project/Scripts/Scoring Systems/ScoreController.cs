@@ -1,18 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using BrickBreak.Singletons;
 using UnityEngine;
 
-public class ScoreController : MonoBehaviour
+public class ScoreController : Singleton<ScoreController>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Score score;
+
+    private void UpdateScore(int scoreAmount)
     {
-        
+        score.CurrentScore += scoreAmount;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

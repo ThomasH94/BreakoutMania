@@ -25,10 +25,10 @@ namespace BrickBreak.Cameras
         {
             base.Awake();
             mainCamera = Camera.main;
-            OnScreenSizeUpdated();
+            ScreenSizeUpdatedHandler();
         }
 
-        public void OnScreenSizeUpdated()
+        public void ScreenSizeUpdatedHandler()
         {
             if (mainCamera != null)
             {
