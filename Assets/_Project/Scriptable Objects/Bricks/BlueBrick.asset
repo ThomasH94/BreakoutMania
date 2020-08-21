@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f331f9c7ec0f72a4894a45111388d0a7, type: 3}
   m_Name: BlueBrick
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 2
   brickSprite: {fileID: 0}
-  brickColor: {r: 0, g: 0, b: 0, a: 0}
+  brickColor: {r: 0, g: 0.6988592, b: 1, a: 0}
   crumbleSprites: []
-  scoreAmount: 0
+  scoreAmount: 30

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ScoreController : Singleton<ScoreController>
 {
-    [SerializeField] private Score score;
+    [SerializeField] private Score score = null;
 
     public void UpdateScore(int scoreAmount)
     {

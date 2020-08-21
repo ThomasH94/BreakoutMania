@@ -11,11 +11,18 @@ public class Brick : MonoBehaviour, IDamagable, ISetupable
     
     public BrickData _brickData;
     public int Health { get; set; }
+
+    private void Start()
+    {
+        Setup(_brickData);
+    }
     
     public void Setup(ScriptableObject brickData)
     {
         if(brickData != null)
             brickData = _brickData;
+
+        Health = _brickData.Health;
 
         if (BrickManager.Instance != null)
             currentBrickManager = BrickManager.Instance;
@@ -36,9 +43,9 @@ public class Brick : MonoBehaviour, IDamagable, ISetupable
         if (Health <= 0)
         {
             // Destroy and add points -- play animation and sounds on hit
-            if (ScoreController.Instance != null)
+            if (BrickManager.Instance != null)
             {
-                ScoreController.Instance.UpdateScore(_brickData.scoreAmount);
+                BrickManager.Instance.BrickDestroyed(_brickData);
             }
             Destroy(gameObject);    // Currently, we are pooling this object, so we'll destroy it
         }

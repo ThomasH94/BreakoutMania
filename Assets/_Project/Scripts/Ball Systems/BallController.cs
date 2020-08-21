@@ -10,7 +10,8 @@ public class BallController : MonoBehaviour
     private float moveSpeed;
 
     [SerializeField] private Rigidbody2D ballRigidBody = null;
-    [SerializeField] private bool isNegative;
+    private bool canMove = false;    // For allowing movement when we lose a life or need to reserve
+    private bool ballServed = false;
     private bool gameStarted = false;
 
 
