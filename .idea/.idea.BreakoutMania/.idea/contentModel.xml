@@ -24,7 +24,8 @@
               <e p="IDamagable.cs" t="Include" />
               <e p="PowerupBrick.cs" t="Include" />
             </e>
-            <e p="Cameras" t="Include">
+            <e p="Camera Systems" t="Include">
+              <e p="CinemachineCameraShake.cs" t="Include" />
               <e p="MainCameraController.cs" t="Include" />
             </e>
             <e p="Event Systems" t="Include">

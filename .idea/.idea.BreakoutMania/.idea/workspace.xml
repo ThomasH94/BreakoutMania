@@ -21,10 +21,27 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR3_mono.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR3_mono.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR4_mono.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR4_mono.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR5_mono.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR5_mono.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Stone/IMPACT_Stone_On_Stone_01_Subtle_mono.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Stone/IMPACT_Stone_On_Stone_01_Subtle_mono.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +56,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LeanTween/Framework/LeanTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,7 +66,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/35/8fa5b398/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,7 +89,6 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Brick Systems/IDamagable.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventTriggerTest.cs" />
@@ -87,17 +105,20 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +163,7 @@
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
       <workItem from="1598042900468" duration="10844000" />
-      <workItem from="1598057166001" duration="15332000" />
+      <workItem from="1598057166001" duration="20588000" />
     </task>
     <servers />
   </component>

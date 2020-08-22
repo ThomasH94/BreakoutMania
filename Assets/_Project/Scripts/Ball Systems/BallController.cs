@@ -12,6 +12,8 @@ namespace BrickBreak.Ball
 
         [SerializeField] private PaddleController paddle;
 
+        [Header("Physics")]
+        
         [SerializeField] private Rigidbody2D ballRigidBody = null;
         private bool _ballServed = false;
 
@@ -34,6 +36,7 @@ namespace BrickBreak.Ball
                 ServeBall();
             }
         }
+        
 
         private void SetupBall()
         {
@@ -93,7 +96,7 @@ namespace BrickBreak.Ball
         /// <returns></returns>
         private float HitFactor(Vector2 ballPosition, Vector2 paddlePosition, float paddleWidth)
         {
-            float randomXOffset = UnityEngine.Random.Range(1.1f, 2.0f);
+            float randomXOffset = UnityEngine.Random.Range(1.1f, 1.4f);
             // Visual example:
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle

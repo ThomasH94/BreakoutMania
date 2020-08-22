@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using BrickBreak.Ball;
 using BrickBreak.Breakable;
 using BrickBreak.Utility;
@@ -20,13 +21,16 @@ namespace BrickBreak.Breakable
         {
             Setup(_brickData);
         }
-
+        
         public void Setup(ScriptableObject brickData)
         {
             if (brickData != null)
                 brickData = _brickData;
 
             Health = _brickData.Health;
+
+            Collider2D brickCollider = GetComponent<Collider2D>();
+            brickCollider.sharedMaterial = _brickData.brickPhysicsMaterial; 
 
             if (BrickManager.Instance != null)
                 currentBrickManager = BrickManager.Instance;
@@ -43,6 +47,7 @@ namespace BrickBreak.Breakable
 
         public void TakeDamage()
         {
+            EventManager.TriggerEvent("Brick Hit");
             Health--;
             if (Health <= 0)
             {

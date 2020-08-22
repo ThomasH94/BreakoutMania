@@ -20,7 +20,7 @@ public class MusicPlayer : MonoBehaviour
 
     private void Update()
     {
-        audioTime += Time.time;
+        audioTime += Time.deltaTime;
         if (audioTime >= loopEnd)
         {
             audioTime = loopStart;
