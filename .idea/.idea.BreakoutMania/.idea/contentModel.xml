@@ -37,10 +37,15 @@
               <e p="PaddleData.cs" t="Include" />
             </e>
             <e p="Scoring Systems" t="Include">
+              <e p="LivesManager.cs" t="Include" />
               <e p="Score.cs" t="Include" />
               <e p="ScoreController.cs" t="Include" />
             </e>
+            <e p="UI" t="Include">
+              <e p="GameResults.cs" t="Include" />
+            </e>
             <e p="Utility" t="Include">
+              <e p="DeathOnTouch.cs" t="Include" />
               <e p="GridCreator.cs" t="Include" />
               <e p="ISetupable.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />

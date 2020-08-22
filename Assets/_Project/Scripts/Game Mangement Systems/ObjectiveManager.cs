@@ -12,6 +12,7 @@ public class ObjectiveManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.StartListening("Objective Complete",OnObjectiveComplete);
+        EventManager.StartListening("Ball Missed",OnObjectiveFailed);
         objectivePanel.SetActive(false);
     }
 
@@ -22,8 +23,11 @@ public class ObjectiveManager : MonoBehaviour
 
     private void OnObjectiveComplete()
     {
-        Debug.Log("OBJECTIVE COMPLETE");
-        objectivePanel.SetActive(true);
-        Time.timeScale = 0;    //TODO: Have the game manager handle this
+        Debug.Log("OBJECTIVE COMPLETE!");
+    }
+
+    private void OnObjectiveFailed()
+    {
+        // Call the Game Manager and tell it you've been naughty
     }
 }

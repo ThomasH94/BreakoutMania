@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using BrickBreak.Paddles;
 using UnityEngine;
 
@@ -41,7 +39,7 @@ public class BallController : MonoBehaviour
             float hitForce = HitFactor(transform.position, 
                 collidedObj.transform.position, collidedObj.collider.bounds.size.x);
             Debug.Log($"Hitforce: {hitForce}");
-            
+
             Vector2 hitDirection = new Vector2(hitForce, 1).normalized;
             ballRigidBody.velocity = hitDirection * moveSpeed;
         }

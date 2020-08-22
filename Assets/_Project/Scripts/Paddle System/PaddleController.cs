@@ -18,7 +18,7 @@ namespace BrickBreak.Paddles
 
         #region Screen
         [SerializeField] private float screenOffset = 0.0f;
-        private float _screenBoundary;
+        private float _horizontalMoveClamp;
         #endregion
 
         #region Input
@@ -27,7 +27,7 @@ namespace BrickBreak.Paddles
 
         private void Start()
         {
-            _screenBoundary = MainCameraController.Instance.HorizontalScreenSize - screenOffset;
+            _horizontalMoveClamp = MainCameraController.Instance.HorizontalScreenSize - screenOffset;
         }
 
         private void Update()
@@ -48,7 +48,7 @@ namespace BrickBreak.Paddles
             Vector2 moveVector = new Vector2(_horizontalInput,0).normalized;
 
             Vector2 position = (Vector2)transform.position + moveVector * (paddleData.moveSpeed * Time.deltaTime);
-            position.x = Mathf.Clamp(position.x, -_screenBoundary, _screenBoundary);
+            position.x = Mathf.Clamp(position.x, -_horizontalMoveClamp, _horizontalMoveClamp);
 
             paddleRigidBody.MovePosition(position);
         }
