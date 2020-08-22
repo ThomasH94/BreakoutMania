@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,14 +70,15 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +122,7 @@
       <updated>1597874108480</updated>
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
-      <workItem from="1598042900468" duration="7357000" />
+      <workItem from="1598042900468" duration="10799000" />
     </task>
     <servers />
   </component>

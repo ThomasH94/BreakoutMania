@@ -11,15 +11,17 @@ public class GridCreator2D
     {
         _columnCount = columnCount;
         _rowCount = rowCount;
+        Grid = new int[columnCount,rowCount];
     }
 
-    public void CreateGrid(GameObject[] gridObjects)
+    public void CreateGrid()
     {
         for (int x = 0; x < _columnCount; x++)
         {
             for (int y = 0; y < _rowCount; y++)
             {
-                //TODO: Grid[x,y] = 
+                Grid[x, y] = Random.Range(0, 10);
+                Debug.Log($"Grid at {x},{y} is {Grid[x,y]}");
             }
         }
     }

@@ -27,6 +27,7 @@
             </e>
             <e p="Game Mangement Systems" t="Include">
               <e p="ObjectiveManager.cs" t="Include" />
+              <e p="SceneController.cs" t="Include" />
             </e>
             <e p="GameLevel Systems" t="Include">
               <e p="GameLevelData.cs" t="Include" />
