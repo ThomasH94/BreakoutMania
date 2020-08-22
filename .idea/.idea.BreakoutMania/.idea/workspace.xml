@@ -23,12 +23,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/BlueBrick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/BlueBrick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/RedBrick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/RedBrick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,25 +47,29 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/2f/db0a6486/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/35/8fa5b398/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/2f/db0a6486/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -78,19 +87,23 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
       </list>
     </option>
   </component>
@@ -115,10 +128,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19236">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="19236" />
       <method v="2" />
     </configuration>
   </component>
@@ -135,7 +148,7 @@
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
       <workItem from="1598042900468" duration="10844000" />
-      <workItem from="1598057166001" duration="3190000" />
+      <workItem from="1598057166001" duration="13555000" />
     </task>
     <servers />
   </component>
@@ -160,73 +173,90 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="409" height="464" key="DebuggerActiveHint" timestamp="1597908253085">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="446" height="464" key="DebuggerActiveHint" timestamp="1598083043034">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="446" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083043034" />
     <state width="409" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597908253085" />
-    <state width="1877" height="131" key="GridCell.Tab.0.bottom" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.0.bottom" timestamp="1598083027487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027487" />
     <state width="1877" height="131" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.0.center" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.0.center" timestamp="1598083027487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027487" />
     <state width="1877" height="131" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.0.left" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.0.left" timestamp="1598083027487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027487" />
     <state width="1877" height="131" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.0.right" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.0.right" timestamp="1598083027487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027487" />
     <state width="1877" height="131" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.1.bottom" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.1.bottom" timestamp="1598083035957">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083035957" />
     <state width="1877" height="131" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.1.center" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.1.center" timestamp="1598083035957">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083035957" />
     <state width="1877" height="131" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.1.left" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.1.left" timestamp="1598083035956">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083035956" />
     <state width="1877" height="131" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.1.right" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.1.right" timestamp="1598083035957">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083035957" />
     <state width="1877" height="131" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.2.bottom" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.2.bottom" timestamp="1598083027421">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027421" />
     <state width="1877" height="131" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.2.center" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.2.center" timestamp="1598083027421">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027421" />
     <state width="1877" height="131" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.2.left" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.2.left" timestamp="1598083027421">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027421" />
     <state width="1877" height="131" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.2.right" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.2.right" timestamp="1598083027421">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027421" />
     <state width="1877" height="131" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.3.bottom" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.3.bottom" timestamp="1598083027422">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027422" />
     <state width="1877" height="131" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.3.center" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.3.center" timestamp="1598083027422">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027422" />
     <state width="1877" height="131" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.3.left" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.3.left" timestamp="1598083027422">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027422" />
     <state width="1877" height="131" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state width="1877" height="131" key="GridCell.Tab.3.right" timestamp="1597981412234">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="131" key="GridCell.Tab.3.right" timestamp="1598083027422">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="131" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027422" />
     <state width="1877" height="131" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
     <state x="2708" y="205" key="RiderGenerateDialog" timestamp="1597905253678">
       <screen x="1920" y="0" width="1920" height="1040" />

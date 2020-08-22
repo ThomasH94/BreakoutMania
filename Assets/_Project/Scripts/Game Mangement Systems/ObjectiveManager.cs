@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ObjectiveManager : MonoBehaviour
 {
+    public SceneController sceneController;
     //TODO: Create scriptable object Objectives
     //Check the current objective and inform anyone listening what it is
     //If the current objective becomes complete, alert the game manager so we can get a new objective or load back into the level select
@@ -12,8 +13,7 @@ public class ObjectiveManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.StartListening("Objective Complete",OnObjectiveComplete);
-        EventManager.StartListening("Ball Missed",OnObjectiveFailed);
-        objectivePanel.SetActive(false);
+        //objectivePanel.SetActive(false);
     }
 
     private void OnDisable()
@@ -24,10 +24,14 @@ public class ObjectiveManager : MonoBehaviour
     private void OnObjectiveComplete()
     {
         Debug.Log("OBJECTIVE COMPLETE!");
+        sceneController.LoadAScene("MainMenu");
+        
     }
 
     private void OnObjectiveFailed()
     {
+        Debug.Log("Objective failed..");
+        sceneController.LoadAScene("MainMenu");
         // Call the Game Manager and tell it you've been naughty
     }
 }

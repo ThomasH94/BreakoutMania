@@ -67,21 +67,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
-    - target: {fileID: 3349644294513621589, guid: 5e34985cdd21d454d824a3c7602a0ad7,
-        type: 3}
-      propertyPath: m_Interpolate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3349644294513621589, guid: 5e34985cdd21d454d824a3c7602a0ad7,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 3349644294513621591, guid: 5e34985cdd21d454d824a3c7602a0ad7,
         type: 3}
       propertyPath: _brickData
       value: 
       objectReference: {fileID: 11400000, guid: 7af84dfbca519c141939be6cb5b053f8,
         type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 5e34985cdd21d454d824a3c7602a0ad7, type: 3}

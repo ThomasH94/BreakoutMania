@@ -18,6 +18,7 @@
               <e p="BrickData.cs" t="Include" />
               <e p="BrickManager.cs" t="Include" />
               <e p="IDamagable.cs" t="Include" />
+              <e p="PowerupBrick.cs" t="Include" />
             </e>
             <e p="Cameras" t="Include">
               <e p="MainCameraController.cs" t="Include" />
@@ -26,6 +27,7 @@
               <e p="EventManager.cs" t="Include" />
             </e>
             <e p="Game Mangement Systems" t="Include">
+              <e p="GameplayManager.cs" t="Include" />
               <e p="ObjectiveManager.cs" t="Include" />
               <e p="SceneController.cs" t="Include" />
             </e>
@@ -35,6 +37,9 @@
             <e p="Paddle System" t="Include">
               <e p="PaddleController.cs" t="Include" />
               <e p="PaddleData.cs" t="Include" />
+            </e>
+            <e p="Powerup System" t="Include">
+              <e p="PowerupData.cs" t="Include" />
             </e>
             <e p="Scoring Systems" t="Include">
               <e p="LivesManager.cs" t="Include" />

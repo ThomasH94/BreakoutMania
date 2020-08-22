@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using BrickBreak.Ball;
 using UnityEngine;
 
 public class DeathOnTouch : MonoBehaviour

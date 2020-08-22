@@ -25,7 +25,6 @@ public class BrickManager : Singleton<BrickManager>
     private void SetupBricks()
     {
         //TODO: Create a grid of bricks based on the bricks we create in the level brick array, with appropriate positions to spawn them
-        _gridCreator2D.CreateGrid();
     }
 
     public void BrickDestroyed(BrickData destroyedBrick)
