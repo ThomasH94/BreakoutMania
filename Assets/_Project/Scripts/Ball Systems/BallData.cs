@@ -7,5 +7,6 @@ public class BallData : ScriptableObject
 {
     public float moveSpeed = 100.0f;
     public Sprite ballSprite;
-    
+    public TrailRenderer ballTrail;
+
 }

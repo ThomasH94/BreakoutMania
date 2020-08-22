@@ -97,7 +97,7 @@ namespace BrickBreak.Ball
             // Visual example:
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle
-            return (ballPosition.x - paddlePosition.x) / paddleWidth;
+            return ((ballPosition.x - paddlePosition.x) / paddleWidth) * randomXOffset;
         }
 
         private void OnDisable()
