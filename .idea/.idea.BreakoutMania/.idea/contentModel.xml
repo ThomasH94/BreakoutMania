@@ -17,6 +17,7 @@
             <e p="Ball Systems" t="Include">
               <e p="BallController.cs" t="Include" />
               <e p="BallData.cs" t="Include" />
+              <e p="BallManager.cs" t="Include" />
             </e>
             <e p="Breakable System" t="Include">
               <e p="Brick.cs" t="Include" />
@@ -45,6 +46,8 @@
               <e p="PaddleData.cs" t="Include" />
             </e>
             <e p="Powerup System" t="Include">
+              <e p="GiantBallPowerup.cs" t="Include" />
+              <e p="PowerUp.cs" t="Include" />
               <e p="PowerupData.cs" t="Include" />
             </e>
             <e p="Scoring Systems" t="Include">
@@ -58,6 +61,7 @@
             <e p="Utility" t="Include">
               <e p="DeathOnTouch.cs" t="Include" />
               <e p="GridCreator.cs" t="Include" />
+              <e p="ICollectable.cs" t="Include" />
               <e p="ISetupable.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>

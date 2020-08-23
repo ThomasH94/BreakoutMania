@@ -22,14 +22,9 @@
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Materials/Physics/StaticObject.physicsMaterial2D" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Materials/Physics/StaticObject.physicsMaterial2D" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +36,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeanTween/Framework/LeanTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/35/8fa5b398/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventTriggerTest.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
@@ -106,9 +104,15 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ICollectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +157,7 @@
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
       <workItem from="1598042900468" duration="10844000" />
-      <workItem from="1598057166001" duration="21969000" />
+      <workItem from="1598057166001" duration="25395000" />
     </task>
     <servers />
   </component>
@@ -263,9 +267,10 @@
     </state>
     <state width="1877" height="131" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598083027422" />
     <state width="1877" height="131" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597981412234" />
-    <state x="2708" y="205" key="RiderGenerateDialog" timestamp="1597905253678">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1598144894347">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598144894347" />
     <state x="2708" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597905253678" />
     <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1597907270276">
       <screen x="1920" y="0" width="1920" height="1040" />

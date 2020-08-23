@@ -1,10 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Brick Data", fileName = "New Brick Data")]
+/// <summary>
+/// TODO: Create a custom inspector that allows us to pick the bricks from the inspector
+/// </summary>
+[CreateAssetMenu(menuName = "Scriptable Objects/Game Level Data", fileName = "New Level Data")]
 public class GameLevelData : ScriptableObject
 {
-    public BrickData[] levelBricks;
+    public BrickInfo[] levelBricks;
     
+}
+
+[Serializable]
+public class BrickInfo
+{
+    public BrickData BrickData;
+    public Vector2 Position; 
 }
