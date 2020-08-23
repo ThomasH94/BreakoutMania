@@ -21,27 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR3_mono.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR3_mono.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR4_mono.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR4_mono.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR5_mono.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Bricks/IMPACT_Brick_vs_Hard_Ground_RR5_mono.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Stone/IMPACT_Stone_On_Stone_01_Subtle_mono.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Universal Sound FX/IMPACTS/Stone/IMPACT_Stone_On_Stone_01_Subtle_mono.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Materials/Physics/StaticObject.physicsMaterial2D" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Materials/Physics/StaticObject.physicsMaterial2D" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/Brick.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -115,10 +104,11 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +153,7 @@
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
       <workItem from="1598042900468" duration="10844000" />
-      <workItem from="1598057166001" duration="20588000" />
+      <workItem from="1598057166001" duration="21969000" />
     </task>
     <servers />
   </component>
@@ -286,10 +276,10 @@
     </state>
     <state x="1971" y="0" width="1398" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597985495224" />
     <state x="3142" y="184" width="1398" height="1027" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597986441627" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1597982830139">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1598132057729">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597982830139" />
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597909080383" />
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598132057729" />
   </component>
 </project>

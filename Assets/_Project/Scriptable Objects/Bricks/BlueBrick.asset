@@ -17,3 +17,5 @@ MonoBehaviour:
   brickColor: {r: 0, g: 0.6988592, b: 1, a: 0}
   crumbleSprites: []
   scoreAmount: 30
+  brickPhysicsMaterial: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20,
+    type: 2}

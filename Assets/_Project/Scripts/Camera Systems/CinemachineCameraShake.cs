@@ -1,17 +1,27 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
 public class CinemachineCameraShake : MonoBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
+    [SerializeField] private CinemachineBasicMultiChannelPerlin cineMachinePerlin;
     private float shakeTimer = 0;
 
     private void Start()
     {
         _virtualCamera = GetComponent<CinemachineVirtualCamera>();
+        cineMachinePerlin = _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+    }
+
+    private void OnEnable()
+    {
+        EventManager.StartListening("Brick Hit", ShakeCamera);
+    }
+    
+    private void OnDisable()
+    {
+        EventManager.StopListening("Brick Hit", ShakeCamera);
     }
 
     private void Update()
@@ -22,23 +32,21 @@ public class CinemachineCameraShake : MonoBehaviour
             if (shakeTimer <= 0f)
             {
                 // Stop shaking
-                CinemachineBasicMultiChannelPerlin cineMachinePerlin =
-                    _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
                 cineMachinePerlin.m_AmplitudeGain = 0;
             }
         }
         
         if (Input.GetKeyDown(KeyCode.P))
         {
-            ShakeCamera(0.4f, 0.1f);
+            ShakeCamera();
         }
     }
 
     [ContextMenu("Shake the Camera")]
-    private void ShakeCamera(float intensity, float shakeTime)
+    private void ShakeCamera()
     {
-        CinemachineBasicMultiChannelPerlin cineMachinePerlin =
-            _virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+        float intensity = UnityEngine.Random.Range(0.2f,0.5f);
+        float shakeTime = UnityEngine.Random.Range(0.1f,0.15f);
 
         cineMachinePerlin.m_AmplitudeGain = intensity;
         shakeTimer = shakeTime;

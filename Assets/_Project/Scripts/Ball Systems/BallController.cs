@@ -78,7 +78,6 @@ namespace BrickBreak.Ball
                 _moveSpeed = Mathf.Abs(_moveSpeed);
                 float hitForce = HitFactor(transform.position,
                     collidedObj.transform.position, collidedObj.collider.bounds.size.x);
-                Debug.Log($"Hitforce: {hitForce}");
 
                 Vector2 hitDirection = new Vector2(hitForce, 1).normalized;
                 ballRigidBody.velocity = hitDirection * _moveSpeed;
@@ -96,11 +95,11 @@ namespace BrickBreak.Ball
         /// <returns></returns>
         private float HitFactor(Vector2 ballPosition, Vector2 paddlePosition, float paddleWidth)
         {
-            float randomXOffset = UnityEngine.Random.Range(1.1f, 1.4f);
+            float randomXOffset = UnityEngine.Random.Range(0.1f, 0.4f);
             // Visual example:
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle
-            return ((ballPosition.x - paddlePosition.x) / paddleWidth) * randomXOffset;
+            return ((ballPosition.x - paddlePosition.x) / paddleWidth) + randomXOffset;
         }
 
         private void OnDisable()

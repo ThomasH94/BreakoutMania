@@ -17,9 +17,12 @@ namespace BrickBreak.Breakable
         public BrickData _brickData;
         public int Health { get; set; }
 
+        [Header("Presentation")] private SFXPlayer _sfxPlayer;
+
         private void Start()
         {
             Setup(_brickData);
+            _sfxPlayer = GetComponent<SFXPlayer>();
         }
         
         public void Setup(ScriptableObject brickData)
@@ -47,7 +50,9 @@ namespace BrickBreak.Breakable
 
         public void TakeDamage()
         {
+            _sfxPlayer.PlaySFX();
             EventManager.TriggerEvent("Brick Hit");
+
             Health--;
             if (Health <= 0)
             {
@@ -68,7 +73,7 @@ namespace BrickBreak.Breakable
 
         protected virtual void DestroyBrick()
         {
-            Destroy(gameObject); // Currently, we are pooling this object, so we'll destroy it
+            Destroy(gameObject, 0.1f); // Currently, we are not pooling this object, so we'll destroy it
         }
 
         private void Crumble()

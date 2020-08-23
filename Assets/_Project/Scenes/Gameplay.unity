@@ -167,7 +167,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 19325629}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -470,6 +470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _virtualCamera: {fileID: 101577680}
+  cineMachinePerlin: {fileID: 0}
 --- !u!1 &130660826
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,7 +791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   livesText: {fileID: 25528634}
-  lives: 2
+  lives: 5
   _sceneController: {fileID: 5706389270288728193, guid: 6575f81d1d34d46408475e2c26879ff7,
     type: 3}
 --- !u!1001 &271062052
@@ -988,7 +989,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 301299369}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2421,7 +2422,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1144282722}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3538,7 +3539,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1939204820}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
