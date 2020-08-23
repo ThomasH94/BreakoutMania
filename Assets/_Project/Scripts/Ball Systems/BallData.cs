@@ -11,7 +11,7 @@ public enum BallType
 }
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Ball Data", fileName = "New Ball Data")]
-public class BallData : ScriptableObject
+public class BallData : DataObject
 {
     // Might replace this all with a custom inspector so we might not need this? Idk..
     [Header("Ball Info")]

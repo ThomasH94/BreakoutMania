@@ -15,6 +15,10 @@ namespace BrickBreak.Ball
         [SerializeField] private Rigidbody2D ballRigidBody = null;
         private bool _ballServed = false;
 
+        #region Events
+        public static event Action<BallController> OnBallDestory;
+        #endregion
+
 
         void Start()
         {
@@ -85,6 +89,12 @@ namespace BrickBreak.Ball
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle
             return ((ballPosition.x - paddlePosition.x) / paddleWidth) + randomXOffset;
+        }
+
+        public void DestroyBall()
+        {
+            OnBallDestory?.Invoke(this);
+            Destroy(gameObject);
         }
     }
 }

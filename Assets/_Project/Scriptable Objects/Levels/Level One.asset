@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d223d508249ae4181112c6deec91e2, type: 3}
   m_Name: Level One
   m_EditorClassIdentifier: 
+  dataName: 
+  dataDescription: 
+  levelBricks:
+  - BrickData: {fileID: 11400000, guid: 7af84dfbca519c141939be6cb5b053f8, type: 2}
+    Position: {x: 0, y: 0}

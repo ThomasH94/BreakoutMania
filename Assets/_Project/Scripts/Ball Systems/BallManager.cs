@@ -20,6 +20,16 @@ public class BallManager : Singleton<BallManager>
         RespawnBall();
     }
 
+    private void OnEnable()
+    {
+        BallController.OnBallDestory += RemoveBall;
+    }
+    
+    private void OnDisable()
+    {
+        BallController.OnBallDestory -= RemoveBall;
+    }
+
     private void RespawnBall()
     {
         float yOffset = 0.16f;
@@ -51,6 +61,8 @@ public class BallManager : Singleton<BallManager>
         AllBalls.Remove(ballToRemove);
         if (AllBalls.Count <= 0)
         {
+            _defaultBall = null;
+            
             EventManager.TriggerEvent("Lost Life");
             if (LivesManager.Instance.Lives > 0)
             {

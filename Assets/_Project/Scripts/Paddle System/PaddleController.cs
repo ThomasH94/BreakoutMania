@@ -1,4 +1,5 @@
-﻿using BrickBreak.Cameras;
+﻿using System;
+using BrickBreak.Cameras;
 using BrickBreak.Singletons;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ namespace BrickBreak.Paddles
     /// </summary>
     public class PaddleController : Singleton<PaddleController>    // Should probably NOT be a singleton..we need a better way to find this
     {
+        // To avoid singleton, we could have an event called "RequestPaddle" that some gameobject fires which triggers an event on this gameobject
+        // that sends this.gameobject as an arguement which might be weird but maybe worth it!?
         public PaddleData paddleData;
 
         #region Physics
@@ -53,5 +56,6 @@ namespace BrickBreak.Paddles
 
             paddleRigidBody.MovePosition(position);
         }
+        
     }
 }

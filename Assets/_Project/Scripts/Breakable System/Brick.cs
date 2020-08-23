@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using BrickBreak.Ball;
-using BrickBreak.Breakable;
 using BrickBreak.Utility;
 using UnityEngine;
 
@@ -11,8 +10,6 @@ namespace BrickBreak.Breakable
     public class Brick : MonoBehaviour, IDamagable, ISetupable
     {
         // Could have brick types that give you points, light up, and maybe stuff like glass that subtracts points
-
-        public BrickManager currentBrickManager = null;
 
         public BrickData _brickData;
         public int Health { get; set; }
@@ -33,10 +30,7 @@ namespace BrickBreak.Breakable
             Health = _brickData.Health;
 
             Collider2D brickCollider = GetComponent<Collider2D>();
-            brickCollider.sharedMaterial = _brickData.brickPhysicsMaterial; 
-
-            if (BrickManager.Instance != null)
-                currentBrickManager = BrickManager.Instance;
+            brickCollider.sharedMaterial = _brickData.brickPhysicsMaterial;
         }
 
 
@@ -62,7 +56,7 @@ namespace BrickBreak.Breakable
                     BrickManager.Instance.BrickDestroyed(_brickData);
                 }
 
-                DestroyBrick();
+                Die();
             }
             else
             {
@@ -71,9 +65,24 @@ namespace BrickBreak.Breakable
             }
         }
 
-        protected virtual void DestroyBrick()
+        public void Die()
         {
+            if (ShouldSpawnCollectable())
+            {
+                SpawnCollectable();
+            }
+            
             Destroy(gameObject, 0.1f); // Currently, we are not pooling this object, so we'll destroy it
+        }
+
+        private bool ShouldSpawnCollectable()
+        {
+            return false;
+        }
+
+        public void SpawnCollectable()
+        {
+            //TODO: Spawn a collectable from the collectables list based on weight
         }
 
         private void Crumble()

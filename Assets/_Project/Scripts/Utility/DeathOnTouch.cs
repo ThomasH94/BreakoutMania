@@ -8,8 +8,7 @@ public class DeathOnTouch : MonoBehaviour
         BallController ballToRemove = other.GetComponent<BallController>();
         if (ballToRemove)
         {
-            BallManager.Instance.RemoveBall(ballToRemove);
-            Destroy(ballToRemove);
+            ballToRemove.DestroyBall();
         }
     }
 }

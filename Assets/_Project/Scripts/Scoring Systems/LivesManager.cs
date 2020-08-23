@@ -14,11 +14,14 @@ public class LivesManager : Singleton<LivesManager>
         get;
         private set;
     }
+
+    public int startingLives = 3;
     
     [SerializeField] private SceneController _sceneController;
 
     private void Start()
     {
+        Lives = startingLives;
         SetLives();
     }
 
@@ -41,6 +44,7 @@ public class LivesManager : Singleton<LivesManager>
     // an extra layer of challenge with no way to gain additional lives
     private void UpdateLives()
     {
+        Debug.Log("SOMETHING");
         Lives--;
         if (Lives == 0)
         {

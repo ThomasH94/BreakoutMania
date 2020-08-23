@@ -24,11 +24,15 @@
               <e p="BrickData.cs" t="Include" />
               <e p="BrickManager.cs" t="Include" />
               <e p="IDamagable.cs" t="Include" />
-              <e p="PowerupBrick.cs" t="Include" />
             </e>
             <e p="Camera Systems" t="Include">
               <e p="CinemachineCameraShake.cs" t="Include" />
               <e p="MainCameraController.cs" t="Include" />
+            </e>
+            <e p="Collectable System" t="Include">
+              <e p="Collectable.cs" t="Include" />
+              <e p="CollectableData.cs" t="Include" />
+              <e p="ICollectable.cs" t="Include" />
             </e>
             <e p="Event Systems" t="Include">
               <e p="EventManager.cs" t="Include" />
@@ -59,9 +63,9 @@
               <e p="GameResults.cs" t="Include" />
             </e>
             <e p="Utility" t="Include">
+              <e p="DataObject.cs" t="Include" />
               <e p="DeathOnTouch.cs" t="Include" />
               <e p="GridCreator.cs" t="Include" />
-              <e p="ICollectable.cs" t="Include" />
               <e p="ISetupable.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>

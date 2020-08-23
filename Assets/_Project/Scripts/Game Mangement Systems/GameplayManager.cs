@@ -21,4 +21,9 @@ public class GameplayManager : Singleton<GameplayManager>
     {
         EventManager.StopListening("Ball Missed",OnBallMissed);
     }
+    
+    //TODO: Instead of objectives, reward a high score based on this formula:
+    //Current Score + Lives someMultiplier + TimeRemaining someMultiplier + somePowerUpMultiplier + friendlyBlocks;
+    //GameManager can be notified OnLevelComplete from BrickManager and calculate score from there
+    // Removes the need for an Objective Manager and Objectives
 }

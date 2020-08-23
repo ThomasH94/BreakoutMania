@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Brick Data", fileName = "New Brick Data")]
-public class BrickData : ScriptableObject
+public class BrickData : DataObject
 {
     public int Health;
     public Sprite brickSprite;
@@ -12,4 +12,5 @@ public class BrickData : ScriptableObject
     public Sprite[] crumbleSprites;
     public int scoreAmount;
     public PhysicsMaterial2D brickPhysicsMaterial;
+    public float spawnChance;
 }

@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2e93b7953a515e4f8b1d379529d9631, type: 3}
   m_Name: Default_Ball
   m_EditorClassIdentifier: 
+  dataName: DefaultBall
+  dataDescription: Starting Ball for every level.
+  ballType: 0
   moveSpeed: 4
   ballSprite: {fileID: 0}
+  ballTrail: {fileID: 0}
