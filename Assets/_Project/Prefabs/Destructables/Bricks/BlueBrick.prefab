@@ -73,6 +73,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5e2f18ee30e7f0542a4b1a6c17193376,
         type: 2}
+    - target: {fileID: 3349644294513621591, guid: 5e34985cdd21d454d824a3c7602a0ad7,
+        type: 3}
+      propertyPath: brickData
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e2f18ee30e7f0542a4b1a6c17193376,
+        type: 2}
     - target: {fileID: 3349644295939404254, guid: 5e34985cdd21d454d824a3c7602a0ad7,
         type: 3}
       propertyPath: m_Color.r

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataName: 
   dataDescription: 
+  scoreAmount: 30
+  collectSound: {fileID: 0}
   powerupName: 
-  powerUpSprite: {fileID: 0}
-  powerUpCollider: {fileID: 0}

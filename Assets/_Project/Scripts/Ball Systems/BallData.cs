@@ -1,21 +1,24 @@
 ﻿using UnityEngine;
 
-public enum BallType
+namespace BrickBreak.Data
 {
-    Main,    // Used to check which ball to track in the case of Mult-Ball
-    Bouncy,
-    Huge,
-    Clone
-}
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Ball Data", fileName = "New Ball Data")]
-public class BallData : DataObject
-{
-    // Might replace this all with a custom inspector so we might not need this? Idk..
-    [Header("Ball Info")]
-    public BallType ballType;
-    public float moveSpeed = 4.0f;
+    public enum BallType
+    {
+        Main, // Used to check which ball to track in the case of Mult-Ball
+        Bouncy,
+        Huge,
+        Clone
+    }
 
-    [Header("Ball Graphics")]
-    public TrailRenderer ballTrail;
+    [CreateAssetMenu(menuName = "Scriptable Objects/Ball Data", fileName = "New Ball Data")]
+    public class BallData : DataObject
+    {
+        // Might replace this all with a custom inspector so we might not need this? Idk..
+        [Header("Ball Info")] public BallType ballType;
+        public float moveSpeed = 4.0f;
+        public int ballDamage = 1;
+
+        [Header("Ball Graphics")] public TrailRenderer ballTrail;
+    }
 }

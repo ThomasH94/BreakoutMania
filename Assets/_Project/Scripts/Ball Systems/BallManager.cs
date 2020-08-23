@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BrickBreak.Ball;
+using BrickBreak.Data;
 using BrickBreak.Paddles;
 using BrickBreak.Singletons;
 using Unity.Mathematics;
@@ -71,7 +72,7 @@ public class BallManager : Singleton<BallManager>
         }
     }
 
-    // Used for the Multi-Ball Powerup
+    // Used by the Multi-Ball Powerup
     public void SpawnBalls(Vector3 transformPosition, int amount, BallData data)
     {
         Vector2 multiBallForce = new Vector2(0, data.moveSpeed);
@@ -79,12 +80,14 @@ public class BallManager : Singleton<BallManager>
         for (int i = 0; i < amount; i++)
         {
             // Create new balls based on the amount, give them a force, and add them to our ball list
-            BallController spawnedBall = Instantiate(ballPrefab);
+            BallController spawnedBall = Instantiate(ballPrefab, transformPosition, quaternion.identity);
             spawnedBall.name = "MultiBall " + i;
             spawnedBall.ballData = data;    // Give this new ball the multi-ball data
             AllBalls.Add(spawnedBall);
             spawnedBall.ServeBall();
-            
+            Rigidbody2D spawnedRigidbody = spawnedBall.GetComponent<Rigidbody2D>();
+            spawnedRigidbody.velocity = multiBallForce;
+
         }
     }
 }

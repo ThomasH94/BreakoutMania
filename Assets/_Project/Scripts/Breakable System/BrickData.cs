@@ -1,16 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-
-[CreateAssetMenu(menuName = "Scriptable Objects/Brick Data", fileName = "New Brick Data")]
-public class BrickData : DataObject
+namespace BrickBreak.Data.Brick
 {
-    public int Health;
-    public Sprite brickSprite;
-    public Color brickColor;
-    public Sprite[] crumbleSprites;
-    public int scoreAmount;
-    public PhysicsMaterial2D brickPhysicsMaterial;
-    public float spawnChance;
+
+    [CreateAssetMenu(menuName = "Scriptable Objects/Brick Data", fileName = "New Brick Data")]
+    public class BrickData : DataObject
+    {
+        [Range(0, 10)] // Change to a slider of some sort with the Custom Inspector
+        public int Health;
+
+        public Sprite brickSprite;
+        public Color brickColor;
+        public Sprite[] crumbleSprites;
+        public int scoreAmount;
+        public PhysicsMaterial2D brickPhysicsMaterial;
+        public float spawnChance;
+        public bool Indestructible = false;
+    }
 }

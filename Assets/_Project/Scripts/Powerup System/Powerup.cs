@@ -1,28 +1,31 @@
-﻿ using System.Collections;
-using System.Collections.Generic;
+﻿using BrickBreak.Data;
 using BrickBreak.Paddles;
 using UnityEngine;
 
-public abstract class Powerup : MonoBehaviour, ICollectable
-{
-    public PowerupData PowerupData;
+ namespace BrickBreak.Collectables
+ {
+     public abstract class Powerup : Collectable, ICollectable
+     {
+         // Seperate powerups into timed and usage based - i.e. limited ammo
+         [SerializeField] protected PowerupData powerupData;
 
-    public void OnCollect()
-    {
-        ApplyPowerup();
-        Destroy(gameObject);
-    }
+         public override void OnCollect()
+         {
+             ApplyPowerup();
+             base.OnCollect();
+         }
 
-    protected virtual void ApplyPowerup()
-    {
-        
-    }
+         protected virtual void ApplyPowerup()
+         {
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.GetComponent<PaddleController>())
-        {
-            OnCollect();
-        }
-    }
-}
+         }
+
+         public void OnTriggerEnter2D(Collider2D other)
+         {
+             if (other.gameObject.GetComponent<PaddleController>())
+             {
+                 OnCollect();
+             }
+         }
+     }
+ }

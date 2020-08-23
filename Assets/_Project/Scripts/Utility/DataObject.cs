@@ -1,9 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class DataObject : ScriptableObject
+namespace BrickBreak.Data
 {
-    public string dataName;
-    public string dataDescription;
+
+    public abstract class DataObject : ScriptableObject
+    {
+        public string dataName;
+        public string dataDescription;
+    }
 }

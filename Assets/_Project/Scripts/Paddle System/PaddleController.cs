@@ -1,5 +1,6 @@
 ﻿using System;
 using BrickBreak.Cameras;
+using BrickBreak.Data;
 using BrickBreak.Singletons;
 using UnityEngine;
 

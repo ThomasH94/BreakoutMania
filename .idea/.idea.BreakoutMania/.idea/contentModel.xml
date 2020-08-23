@@ -32,6 +32,7 @@
             <e p="Collectable System" t="Include">
               <e p="Collectable.cs" t="Include" />
               <e p="CollectableData.cs" t="Include" />
+              <e p="CollectableManager.cs" t="Include" />
               <e p="ICollectable.cs" t="Include" />
             </e>
             <e p="Event Systems" t="Include">

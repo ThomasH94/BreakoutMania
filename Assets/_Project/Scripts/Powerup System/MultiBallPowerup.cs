@@ -1,19 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using BrickBreak.Ball;
+using BrickBreak.Data;
 using UnityEngine;
 
-public class MultiBallPowerup : Powerup
+namespace BrickBreak.Collectables
 {
-    [SerializeField] private BallData multiBallData;
-    protected override void ApplyPowerup()
+    public class MultiBallPowerup : Powerup
     {
-        float randomOffset = Random.Range(-0.3f, 0.3f);
-        Vector2 positionOffset = new Vector2(randomOffset, randomOffset);
-        foreach (BallController ball in BallManager.Instance.AllBalls.ToList())
+        [SerializeField] private BallData multiBallData;
+
+        protected override void ApplyPowerup()
         {
-            BallManager.Instance.SpawnBalls((Vector2)ball.gameObject.transform.position + positionOffset, 2, multiBallData);
+            if (BallManager.Instance == null)
+            {
+                Debug.LogError("<color=redERROR! No BallManager available..powerup failed..</color>");
+                return;
+            }
+
+            float randomOffset = Random.Range(-0.3f, 0.3f);
+            Vector2 positionOffset = new Vector2(randomOffset, randomOffset);
+            foreach (BallController ball in BallManager.Instance.AllBalls.ToList())
+            {
+                BallManager.Instance.SpawnBalls((Vector2) ball.gameObject.transform.position + positionOffset, 2,
+                    multiBallData);
+            }
         }
     }
 }

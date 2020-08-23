@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+﻿using BrickBreak.Data.Collectables;
+using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Objects/Powerup Data", fileName = "New Powerup Data")]
-public class PowerupData : CollectableData
+namespace BrickBreak.Data
 {
-    public string powerupName;
+    [CreateAssetMenu(menuName = "Scriptable Objects/Powerup Data", fileName = "New Powerup Data")]
+    public class PowerupData : CollectableData
+    {
+        public string powerupName;
+    }
 }

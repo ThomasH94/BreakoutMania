@@ -1,7 +1,7 @@
 ﻿using System;
+using BrickBreak.Data;
 using BrickBreak.Paddles;
 using UnityEngine;
-using Random = System.Random;
 
 namespace BrickBreak.Ball
 {

@@ -9,12 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e93b7953a515e4f8b1d379529d9631, type: 3}
-  m_Name: MultiBall
+  m_Script: {fileID: 11500000, guid: f331f9c7ec0f72a4894a45111388d0a7, type: 3}
+  m_Name: Indestructable
   m_EditorClassIdentifier: 
   dataName: 
   dataDescription: 
-  ballType: 0
-  moveSpeed: 4
-  ballDamage: 1
-  ballTrail: {fileID: 0}
+  Health: 0
+  brickSprite: {fileID: 0}
+  brickColor: {r: 0, g: 0, b: 0, a: 0}
+  crumbleSprites: []
+  scoreAmount: 0
+  brickPhysicsMaterial: {fileID: 0}
+  spawnChance: 0
+  Indestructible: 1

@@ -22,20 +22,28 @@
     <list default="true" id="f7b9ed0e-c668-487e-aa2f-db195878e697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/PowerUps.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/PowerUps/GiantBallPowerUp.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/PowerUps/GiantBallPowerUp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/BlueBrick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/BlueBrick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/RedBrick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Destructables/Bricks/RedBrick.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Balls/MultiBall.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Balls/MultiBall.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/GiantBallPowerup.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/GiantBallPowerup.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/MultiBallPowerup.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/MultiBallPowerup.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeanTween/Framework/LeanTween.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -95,7 +104,6 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" />
@@ -112,26 +120,29 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ICollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/ItemCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerdownData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +187,7 @@
       <workItem from="1597874114059" duration="3921000" />
       <workItem from="1597982727492" duration="11804000" />
       <workItem from="1598042900468" duration="10844000" />
-      <workItem from="1598057166001" duration="42910000" />
+      <workItem from="1598057166001" duration="48534000" />
     </task>
     <servers />
   </component>

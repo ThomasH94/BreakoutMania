@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using BrickBreak.Ball;
+using BrickBreak.Data.Brick;
 using BrickBreak.Utility;
 using UnityEngine;
 
@@ -49,6 +50,9 @@ namespace BrickBreak.Breakable
             _sfxPlayer.PlaySFX();
             EventManager.TriggerEvent("Brick Hit");
 
+            if(brickData.Indestructible)    // Don't take damage but still trigger screen shake and other events
+                return;
+            
             Health -= damageAmount;
             if (Health <= 0)
             {

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &492934171072665757
+--- !u!1001 &5990702109812938037
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -65,20 +65,13 @@ PrefabInstance:
     - target: {fileID: 3349644294513621577, guid: 5e34985cdd21d454d824a3c7602a0ad7,
         type: 3}
       propertyPath: m_Name
-      value: RedBrick
+      value: IndestructableBrick
       objectReference: {fileID: 0}
-    - target: {fileID: 3349644294513621591, guid: 5e34985cdd21d454d824a3c7602a0ad7,
-        type: 3}
-      propertyPath: _brickData
-      value: 
-      objectReference: {fileID: 11400000, guid: 7af84dfbca519c141939be6cb5b053f8,
-        type: 2}
     - target: {fileID: 3349644294513621591, guid: 5e34985cdd21d454d824a3c7602a0ad7,
         type: 3}
       propertyPath: brickData
       value: 
-      objectReference: {fileID: 11400000, guid: 7af84dfbca519c141939be6cb5b053f8,
+      objectReference: {fileID: 11400000, guid: fd0ff454081277e429a2da91cede3d6c,
         type: 2}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e34985cdd21d454d824a3c7602a0ad7, type: 3}
