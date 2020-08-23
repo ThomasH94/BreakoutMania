@@ -15,5 +15,5 @@ MonoBehaviour:
   dataName: 
   dataDescription: 
   scoreAmount: 40
-  collectSound: {fileID: 0}
+  collectSound: {fileID: 8300000, guid: c0b176b67a0734d46b6df8e961fdafe0, type: 3}
   powerupName: 

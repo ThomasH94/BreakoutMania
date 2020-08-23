@@ -13,7 +13,7 @@ namespace BrickBreak.Ball
         [Header("Physics")]
         
         [SerializeField] private Rigidbody2D ballRigidBody = null;
-        private bool _ballServed = false;
+        public bool _ballServed = false;
 
         #region Events
         public static event Action<BallController> OnAnyBallDestroyed;
@@ -63,12 +63,20 @@ namespace BrickBreak.Ball
             // Ball has a reference to the paddle so we may be able to avoid this..
             if(collidedObj.gameObject.GetComponent<PaddleController>())
             {
-                _moveSpeed = Mathf.Abs(_moveSpeed);
+                float maxVelocity = 1.5f;    //Limit the ball from flying to fast if hit from the side of the paddle
+
                 float hitForce = HitFactor(transform.position,
                     collidedObj.transform.position, collidedObj.collider.bounds.size.x);
+                
+                Debug.Log($"Hit force:{hitForce}");
 
                 Vector2 hitDirection = new Vector2(hitForce, 1).normalized;
-                ballRigidBody.velocity = hitDirection * _moveSpeed;
+                hitDirection.x = Mathf.Clamp(hitDirection.x, -maxVelocity, maxVelocity);
+                hitDirection *= _moveSpeed;
+
+                ballRigidBody.velocity = hitDirection;
+
+                Debug.Log($"Velocity:{ballRigidBody.velocity}");
             }
         }
 
@@ -83,11 +91,17 @@ namespace BrickBreak.Ball
         /// <returns></returns>
         private float HitFactor(Vector2 ballPosition, Vector2 paddlePosition, float paddleWidth)
         {
-            float randomXOffset = UnityEngine.Random.Range(0.1f, 0.4f);
             // Visual example:
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle
-            return ((ballPosition.x - paddlePosition.x) / paddleWidth) + randomXOffset;
+            
+            float hitDirectionHorizontal = (ballPosition.x - paddlePosition.x) / paddleWidth;
+            float randomXOffset = UnityEngine.Random.Range(0.1f, 0.4f);
+            
+            if (hitDirectionHorizontal < 0)
+                randomXOffset *= -1;    // Move left if hitDirectionHorizontal is negative, right if positive
+
+            return (hitDirectionHorizontal + randomXOffset);
         }
 
         public void DestroyBall()

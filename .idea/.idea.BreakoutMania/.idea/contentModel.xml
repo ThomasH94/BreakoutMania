@@ -55,6 +55,8 @@
               <e p="MultiBallPowerup.cs" t="Include" />
               <e p="PowerUp.cs" t="Include" />
               <e p="PowerupData.cs" t="Include" />
+              <e p="SnapBall.cs" t="Include" />
+              <e p="SnapBallPowerup.cs" t="Include" />
             </e>
             <e p="Scoring Systems" t="Include">
               <e p="LivesManager.cs" t="Include" />
@@ -65,9 +67,11 @@
               <e p="GameResults.cs" t="Include" />
             </e>
             <e p="Utility" t="Include">
+              <e p="BallDetector.cs" t="Include" />
               <e p="DataObject.cs" t="Include" />
               <e p="DeathOnTouch.cs" t="Include" />
               <e p="GridCreator.cs" t="Include" />
+              <e p="IInteractable.cs" t="Include" />
               <e p="ISetupable.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
             </e>

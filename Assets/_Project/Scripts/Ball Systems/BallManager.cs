@@ -52,6 +52,14 @@ public class BallManager : Singleton<BallManager>
         _defaultBall.SetBallToServe();
     }
 
+    // Used by the Snap Ball Powerup
+    public void SnapBall(BallController snappedBall)
+    {
+        _defaultBall = snappedBall;
+        RespawnBall();
+        Debug.Log("Oh SNAP! A ball!");
+    }
+
     private void AddBall()
     {
         //TODO: Used for Multi-Ball Power Up
@@ -77,14 +85,20 @@ public class BallManager : Singleton<BallManager>
     {
         Vector2 multiBallForce = new Vector2(0, data.moveSpeed);
 
+
         for (int i = 0; i < amount; i++)
         {
             // Create new balls based on the amount, give them a force, and add them to our ball list
+            float spawnOffset = i * 0.2f;
+            Vector2 spawnPosition = new Vector2(transformPosition.x + spawnOffset, transformPosition.y);
+            
             BallController spawnedBall = Instantiate(ballPrefab, transformPosition, quaternion.identity);
             spawnedBall.name = "MultiBall " + i;
             spawnedBall.ballData = data;    // Give this new ball the multi-ball data
+            
             AllBalls.Add(spawnedBall);
             spawnedBall.ServeBall();
+            
             Rigidbody2D spawnedRigidbody = spawnedBall.GetComponent<Rigidbody2D>();
             spawnedRigidbody.velocity = multiBallForce;
 

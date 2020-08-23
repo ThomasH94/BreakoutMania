@@ -1,4 +1,5 @@
-﻿using BrickBreak.Data;
+﻿using System;
+using BrickBreak.Data;
 using BrickBreak.Paddles;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ using UnityEngine;
          // Seperate powerups into timed and usage based - i.e. limited ammo
          [SerializeField] protected PowerupData powerupData;
 
+         public static Action<Powerup> OnAnyPowerupTriggered;
+
          public override void OnCollect()
          {
              ApplyPowerup();
@@ -17,15 +20,8 @@ using UnityEngine;
 
          protected virtual void ApplyPowerup()
          {
-
+            OnAnyPowerupTriggered?.Invoke(this);
          }
-
-         public void OnTriggerEnter2D(Collider2D other)
-         {
-             if (other.gameObject.GetComponent<PaddleController>())
-             {
-                 OnCollect();
-             }
-         }
+         
      }
  }

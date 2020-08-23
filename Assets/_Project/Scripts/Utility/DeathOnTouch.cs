@@ -1,4 +1,6 @@
 ﻿using BrickBreak.Ball;
+using BrickBreak.Collectables;
+using BrickBreak.Paddles;
 using UnityEngine;
 
 public class DeathOnTouch : MonoBehaviour
@@ -10,10 +12,9 @@ public class DeathOnTouch : MonoBehaviour
         {
             ballToRemove.DestroyBall();
         }
-        else
+        else if(other.GetComponent<Collectable>())
         {
-            // For collectables
-            Destroy(other.gameObject);
+            Destroy(other);
         }
     }
 }

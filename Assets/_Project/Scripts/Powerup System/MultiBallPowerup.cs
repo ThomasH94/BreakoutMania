@@ -24,6 +24,8 @@ namespace BrickBreak.Collectables
                 BallManager.Instance.SpawnBalls((Vector2) ball.gameObject.transform.position + positionOffset, 2,
                     multiBallData);
             }
+            
+            base.ApplyPowerup();
         }
     }
 }

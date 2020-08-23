@@ -50,7 +50,7 @@ namespace BrickBreak.Breakable
             _sfxPlayer.PlaySFX();
             EventManager.TriggerEvent("Brick Hit");
 
-            if(brickData.Indestructible)    // Don't take damage but still trigger screen shake and other events
+            if(brickData.Indestructible || Health == 0)    // Don't take damage but still trigger screen shake and other events
                 return;
             
             Health -= damageAmount;
@@ -70,6 +70,8 @@ namespace BrickBreak.Breakable
 
         public void Die()
         {
+            Collider2D brickCollider = GetComponent<Collider2D>();
+            brickCollider.enabled = false;    // To prevent multi-ball from hitting this multiple times
             Destroy(gameObject, 0.1f); // Currently, we are not pooling this object, so we'll destroy it
         }
         

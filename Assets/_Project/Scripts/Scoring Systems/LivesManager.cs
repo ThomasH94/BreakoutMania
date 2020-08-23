@@ -8,7 +8,8 @@ using UnityEngine.PlayerLoop;
 
 public class LivesManager : Singleton<LivesManager>
 {
-    [SerializeField] private TextMeshProUGUI livesText = null; 
+    [SerializeField] private TextMeshProUGUI livesText = null;
+    [SerializeField] private bool infiniteLives = false;
     public int Lives
     {
         get;
@@ -37,13 +38,16 @@ public class LivesManager : Singleton<LivesManager>
 
     private void SetLives()
     {
-        livesText.text = $"Lives: {Lives.ToString()}";
+        livesText.text = infiniteLives ? "∞" : $"Lives: {Lives.ToString()}";
     }
 
     // Lives will always have a default amount sent in based on the levels objective to add
     // an extra layer of challenge with no way to gain additional lives
     private void UpdateLives()
     {
+        if(infiniteLives)
+            return;
+        
         Debug.Log("SOMETHING");
         Lives--;
         if (Lives == 0)

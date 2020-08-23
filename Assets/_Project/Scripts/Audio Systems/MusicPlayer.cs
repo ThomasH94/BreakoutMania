@@ -1,29 +1,32 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]    // TODO: Move to the IAudible Interface as well as SFXPlayer
 public class MusicPlayer : MonoBehaviour
 {
-    private float audioTime = 0f;
+    private float _audioTime = 0f;
     
-    [SerializeField] private float loopStart;
-    [SerializeField] private float loopEnd;
+    [SerializeField] private float loopStart = 0f;
+    [SerializeField] private float loopEnd = 0f; 
 
-    private AudioSource musicSource;
+    private AudioSource _musicSource;
+
+    private void Start()
+    {
+        _musicSource = GetComponent<AudioSource>();
+    }
 
     private void PlayMusic()
     {
-        musicSource.Play();
+        _musicSource.Play();
     }
 
 
     private void Update()
     {
-        audioTime += Time.deltaTime;
-        if (audioTime >= loopEnd)
+        _audioTime += Time.deltaTime;
+        if (_audioTime >= loopEnd)
         {
-            audioTime = loopStart;
+            _audioTime = loopStart;
         }
     }
 }

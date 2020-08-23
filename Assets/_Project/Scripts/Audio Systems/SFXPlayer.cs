@@ -6,8 +6,7 @@ using UnityEngine;
 public class SFXPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource sfxSource;
-
-    [SerializeField] private AudioClip sfxToPlay = null;
+    public AudioClip sfxToPlay;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +15,7 @@ public class SFXPlayer : MonoBehaviour
 
     public void PlaySFX()
     {
+        sfxSource.clip = sfxToPlay;
         sfxSource.PlayOneShot(sfxToPlay);
     }
     

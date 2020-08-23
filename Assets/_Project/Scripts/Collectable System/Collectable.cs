@@ -13,15 +13,31 @@ namespace BrickBreak.Collectables
     public class Collectable : MonoBehaviour, ICollectable
     {
         [SerializeField] private CollectableData _collectableData;
+        [SerializeField] private SFXPlayer _sfxPlayer;
+        private SpriteRenderer collectableSpriteRenderer;
+        private Collider2D collectableCollider;
 
         public static event Action<int> OnAnyCollectable;
+
+        protected void Start()
+        {
+            if (_sfxPlayer == null)
+                _sfxPlayer = GetComponent<SFXPlayer>();
+            collectableSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+            collectableCollider = GetComponent<Collider2D>();
+        }
 
 
         public virtual void OnCollect()
         {
             OnAnyCollectable?.Invoke(_collectableData.scoreAmount);
-            Destroy(gameObject);
+            _sfxPlayer.sfxToPlay = _collectableData.collectSound;
+            _sfxPlayer.PlaySFX();
+            collectableSpriteRenderer.enabled = false;
+            collectableCollider.enabled = false;
+            Destroy(gameObject,2f);
         }
+        
 
         public void OnTriggerEnter2D(Collider2D other)
         {
