@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public enum BallType
 {
@@ -16,9 +14,8 @@ public class BallData : DataObject
     // Might replace this all with a custom inspector so we might not need this? Idk..
     [Header("Ball Info")]
     public BallType ballType;
-    public float moveSpeed = 100.0f;
+    public float moveSpeed = 4.0f;
 
     [Header("Ball Graphics")]
-    public Sprite ballSprite;
     public TrailRenderer ballTrail;
 }

@@ -10,5 +10,10 @@ public class DeathOnTouch : MonoBehaviour
         {
             ballToRemove.DestroyBall();
         }
+        else
+        {
+            // For collectables
+            Destroy(other.gameObject);
+        }
     }
 }

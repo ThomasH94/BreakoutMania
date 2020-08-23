@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GiantBallPowerup : Powerup
 {
-    public override void OnCollect()
+    public void OnCollect()
     {
         Debug.Log("Your ball is now HUGE");
     }

@@ -8,7 +8,8 @@ using UnityEngine;
 public class GameLevelData : DataObject
 {
     public BrickInfo[] levelBricks;
-    
+    public int highScore;
+
 }
 
 [Serializable]

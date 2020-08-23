@@ -51,6 +51,7 @@
             </e>
             <e p="Powerup System" t="Include">
               <e p="GiantBallPowerup.cs" t="Include" />
+              <e p="MultiBallPowerup.cs" t="Include" />
               <e p="PowerUp.cs" t="Include" />
               <e p="PowerupData.cs" t="Include" />
             </e>

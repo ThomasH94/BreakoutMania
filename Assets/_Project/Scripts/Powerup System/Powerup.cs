@@ -5,7 +5,18 @@ using UnityEngine;
 
 public abstract class Powerup : MonoBehaviour, ICollectable
 {
-    public abstract void OnCollect();
+    public PowerupData PowerupData;
+
+    public void OnCollect()
+    {
+        ApplyPowerup();
+        Destroy(gameObject);
+    }
+
+    protected virtual void ApplyPowerup()
+    {
+        
+    }
 
     public void OnTriggerEnter2D(Collider2D other)
     {

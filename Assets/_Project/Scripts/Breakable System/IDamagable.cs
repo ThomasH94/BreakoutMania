@@ -3,8 +3,7 @@
     public interface IDamagable
     { 
         int Health { get; set; }
-        void TakeDamage();
+        void TakeDamage(int amount);
         void Die();
-        void SpawnCollectable();
     }
 }

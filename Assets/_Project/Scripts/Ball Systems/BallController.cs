@@ -7,7 +7,7 @@ namespace BrickBreak.Ball
 {
     public class BallController : MonoBehaviour
     {
-        [SerializeField] private BallData ballData = null;
+        public BallData ballData;
         private float _moveSpeed;
 
         [Header("Physics")]
@@ -16,14 +16,13 @@ namespace BrickBreak.Ball
         private bool _ballServed = false;
 
         #region Events
-        public static event Action<BallController> OnBallDestory;
+        public static event Action<BallController> OnAnyBallDestroyed;
         #endregion
 
 
         void Start()
         {
             SetupBall();
-            SetBallToServe();
         }
         
 
@@ -36,7 +35,7 @@ namespace BrickBreak.Ball
         }
         
 
-        private void SetupBall()
+        public void SetupBall()
         {
             // Used for getting components, setting graphics, and more
             _moveSpeed = ballData.moveSpeed;
@@ -51,7 +50,7 @@ namespace BrickBreak.Ball
             ballRigidBody.simulated = false;    // To fix issues with parenting
         }
 
-        private void ServeBall()
+        public void ServeBall()
         {
             _ballServed = true;
             transform.parent = null;
@@ -93,7 +92,7 @@ namespace BrickBreak.Ball
 
         public void DestroyBall()
         {
-            OnBallDestory?.Invoke(this);
+            OnAnyBallDestroyed?.Invoke(this);
             Destroy(gameObject);
         }
     }

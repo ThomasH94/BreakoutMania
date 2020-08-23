@@ -10,27 +10,29 @@ namespace BrickBreak.Breakable
     public class Brick : MonoBehaviour, IDamagable, ISetupable
     {
         // Could have brick types that give you points, light up, and maybe stuff like glass that subtracts points
+        
+        public static event Action<Brick> OnAnyBrickDied; 
 
-        public BrickData _brickData;
+        public BrickData brickData;
         public int Health { get; set; }
 
         [Header("Presentation")] private SFXPlayer _sfxPlayer;
 
         private void Start()
         {
-            Setup(_brickData);
+            Setup(brickData);
             _sfxPlayer = GetComponent<SFXPlayer>();
         }
         
-        public void Setup(ScriptableObject brickData)
+        public void Setup(ScriptableObject data)
         {
-            if (brickData != null)
-                brickData = _brickData;
+            if (data != null)
+                data = brickData;
 
-            Health = _brickData.Health;
+            Health = brickData.Health;
 
             Collider2D brickCollider = GetComponent<Collider2D>();
-            brickCollider.sharedMaterial = _brickData.brickPhysicsMaterial;
+            brickCollider.sharedMaterial = brickData.brickPhysicsMaterial;
         }
 
 
@@ -42,19 +44,16 @@ namespace BrickBreak.Breakable
             }
         }
 
-        public void TakeDamage()
+        public void TakeDamage(int damageAmount = 1)
         {
             _sfxPlayer.PlaySFX();
             EventManager.TriggerEvent("Brick Hit");
 
-            Health--;
+            Health -= damageAmount;
             if (Health <= 0)
             {
                 // Destroy and add points -- play animation and sounds on hit
-                if (BrickManager.Instance != null)
-                {
-                    BrickManager.Instance.BrickDestroyed(_brickData);
-                }
+                OnAnyBrickDied?.Invoke(this);
 
                 Die();
             }
@@ -67,24 +66,9 @@ namespace BrickBreak.Breakable
 
         public void Die()
         {
-            if (ShouldSpawnCollectable())
-            {
-                SpawnCollectable();
-            }
-            
             Destroy(gameObject, 0.1f); // Currently, we are not pooling this object, so we'll destroy it
         }
-
-        private bool ShouldSpawnCollectable()
-        {
-            return false;
-        }
-
-        public void SpawnCollectable()
-        {
-            //TODO: Spawn a collectable from the collectables list based on weight
-        }
-
+        
         private void Crumble()
         {
             //TODO: Check the brick datas crumble sprites and update via Crumble Routine
@@ -93,7 +77,7 @@ namespace BrickBreak.Breakable
 
         private IEnumerator CrumbleRoutine()
         {
-            // Slowly fade into the new crumble sprite and out of the old one
+            // Enable the next crumble sprite
             yield return null;
         }
     }

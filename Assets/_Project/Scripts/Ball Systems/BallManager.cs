@@ -22,12 +22,12 @@ public class BallManager : Singleton<BallManager>
 
     private void OnEnable()
     {
-        BallController.OnBallDestory += RemoveBall;
+        BallController.OnAnyBallDestroyed += RemoveAnyBall;
     }
     
     private void OnDisable()
     {
-        BallController.OnBallDestory -= RemoveBall;
+        BallController.OnAnyBallDestroyed -= RemoveAnyBall;
     }
 
     private void RespawnBall()
@@ -56,7 +56,7 @@ public class BallManager : Singleton<BallManager>
         //TODO: Used for Multi-Ball Power Up
     }
 
-    public void RemoveBall(BallController ballToRemove)
+    public void RemoveAnyBall(BallController ballToRemove)
     {
         AllBalls.Remove(ballToRemove);
         if (AllBalls.Count <= 0)
@@ -68,6 +68,23 @@ public class BallManager : Singleton<BallManager>
             {
                 RespawnBall();
             }
+        }
+    }
+
+    // Used for the Multi-Ball Powerup
+    public void SpawnBalls(Vector3 transformPosition, int amount, BallData data)
+    {
+        Vector2 multiBallForce = new Vector2(0, data.moveSpeed);
+
+        for (int i = 0; i < amount; i++)
+        {
+            // Create new balls based on the amount, give them a force, and add them to our ball list
+            BallController spawnedBall = Instantiate(ballPrefab);
+            spawnedBall.name = "MultiBall " + i;
+            spawnedBall.ballData = data;    // Give this new ball the multi-ball data
+            AllBalls.Add(spawnedBall);
+            spawnedBall.ServeBall();
+            
         }
     }
 }
