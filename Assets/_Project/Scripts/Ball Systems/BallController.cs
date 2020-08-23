@@ -10,8 +10,6 @@ namespace BrickBreak.Ball
         [SerializeField] private BallData ballData = null;
         private float _moveSpeed;
 
-        [SerializeField] private PaddleController paddle;
-
         [Header("Physics")]
         
         [SerializeField] private Rigidbody2D ballRigidBody = null;
@@ -23,11 +21,7 @@ namespace BrickBreak.Ball
             SetupBall();
             SetBallToServe();
         }
-
-        private void OnEnable()
-        {
-            EventManager.StartListening("Ball Missed", SetBallToServe);
-        }
+        
 
         private void Update()
         {
@@ -44,21 +38,12 @@ namespace BrickBreak.Ball
             _moveSpeed = ballData.moveSpeed;
             if (ballRigidBody == null)
                 ballRigidBody = GetComponent<Rigidbody2D>();
-            paddle = GetComponentInParent<PaddleController>();
         }
 
         // Sets the ball up to be served, which is different than actually setting up the ball
-        private void SetBallToServe()
+        public void SetBallToServe()
         {
             _ballServed = false;
-            
-            float yOffset = 0.16f;
-            Transform paddleTransform = paddle.transform;
-            Vector2 servePosition = paddleTransform.position;
-            
-            transform.position = new Vector2(servePosition.x, servePosition.y + yOffset);
-            transform.parent = paddleTransform;
-            
             ballRigidBody.simulated = false;    // To fix issues with parenting
         }
 
@@ -73,7 +58,7 @@ namespace BrickBreak.Ball
         private void OnCollisionEnter2D(Collision2D collidedObj)
         {
             // Ball has a reference to the paddle so we may be able to avoid this..
-            if(collidedObj.gameObject.GetComponent<PaddleController>() == paddle)
+            if(collidedObj.gameObject.GetComponent<PaddleController>())
             {
                 _moveSpeed = Mathf.Abs(_moveSpeed);
                 float hitForce = HitFactor(transform.position,
@@ -100,11 +85,6 @@ namespace BrickBreak.Ball
             // || -0.5     0      0.5    <- x Position after subtraction
             // || ===================    <- Paddle
             return ((ballPosition.x - paddlePosition.x) / paddleWidth) + randomXOffset;
-        }
-
-        private void OnDisable()
-        {
-            EventManager.StopListening("Ball Missed", SetBallToServe);
         }
     }
 }

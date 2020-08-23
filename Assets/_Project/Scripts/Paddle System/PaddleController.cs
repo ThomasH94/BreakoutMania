@@ -1,4 +1,5 @@
 ﻿using BrickBreak.Cameras;
+using BrickBreak.Singletons;
 using UnityEngine;
 
 namespace BrickBreak.Paddles
@@ -6,7 +7,7 @@ namespace BrickBreak.Paddles
     /// <summary>
     /// The purpose of this class is to control the paddle, and update it's data based on predefined paddle data
     /// </summary>
-    public class PaddleController : MonoBehaviour
+    public class PaddleController : Singleton<PaddleController>    // Should probably NOT be a singleton..we need a better way to find this
     {
         public PaddleData paddleData;
 

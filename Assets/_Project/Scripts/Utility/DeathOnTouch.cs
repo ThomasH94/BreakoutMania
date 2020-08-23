@@ -5,9 +5,11 @@ public class DeathOnTouch : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.GetComponent<BallController>())
+        BallController ballToRemove = other.GetComponent<BallController>();
+        if (ballToRemove)
         {
-            EventManager.TriggerEvent("Ball Missed");
+            BallManager.Instance.RemoveBall(ballToRemove);
+            Destroy(ballToRemove);
         }
     }
 }

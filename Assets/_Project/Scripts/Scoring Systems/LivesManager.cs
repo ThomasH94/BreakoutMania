@@ -1,14 +1,20 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using BrickBreak.Singletons;
 using TMPro;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
-public class LivesManager : MonoBehaviour
+public class LivesManager : Singleton<LivesManager>
 {
-    [SerializeField] private TextMeshProUGUI livesText = null;
-    [SerializeField] private int lives = 0;
+    [SerializeField] private TextMeshProUGUI livesText = null; 
+    public int Lives
+    {
+        get;
+        private set;
+    }
+    
     [SerializeField] private SceneController _sceneController;
 
     private void Start()
@@ -18,25 +24,25 @@ public class LivesManager : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.StartListening("Ball Missed", UpdateLives);
+        EventManager.StartListening("Lost Life", UpdateLives);
     }
 
     private void OnDisable()
     {
-        EventManager.StopListening("Ball Missed", UpdateLives);
+        EventManager.StopListening("Lost Life", UpdateLives);
     }
 
     private void SetLives()
     {
-        livesText.text = $"Lives: {lives.ToString()}";
+        livesText.text = $"Lives: {Lives.ToString()}";
     }
 
     // Lives will always have a default amount sent in based on the levels objective to add
     // an extra layer of challenge with no way to gain additional lives
     private void UpdateLives()
     {
-        lives--;
-        if (lives == 0)
+        Lives--;
+        if (Lives == 0)
         {
             _sceneController.LoadAScene("MainMenu");
         }
