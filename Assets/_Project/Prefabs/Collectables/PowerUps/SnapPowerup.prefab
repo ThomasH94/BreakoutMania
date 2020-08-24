@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6468555875690254420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2793260440281896134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559eab1544379154c8e8c3105b09361d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collectableData: {fileID: 0}
+  _sfxPlayer: {fileID: 0}
+  powerupData: {fileID: 0}
+  ballDetector: {fileID: 5819448298359792332, guid: d5b360b7e88cfbc46baab8383425fdba,
+    type: 3}
+--- !u!1001 &3807924603304121423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1304866117923801886, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6542258964230631408, guid: 8c8bee537398ba145b35ea7c58beead2,
+        type: 3}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923336, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304866119215923337, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+        type: 3}
+      propertyPath: m_Name
+      value: SnapPowerup
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1919238579017080743, guid: dfa7c61f18d9f7442adedcd99fe564ab, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: dfa7c61f18d9f7442adedcd99fe564ab, type: 3}
+--- !u!1 &2793260440281896134 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1304866119215923337, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 3807924603304121423}
+  m_PrefabAsset: {fileID: 0}

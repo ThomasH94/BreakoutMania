@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using BrickBreak.Collectables;
+using BrickBreak.Paddles;
+using Unity.Mathematics;
 using UnityEngine;
 
-public class SnapBallPowerup : MonoBehaviour
+public class SnapBallPowerup : Powerup
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    public GameObject ballDetector;
+    
+    protected void OnTriggerEnter2D(Collider2D other)
     {
-        other.gameObject.AddComponent<SnapBall>();
+        if (other.gameObject.GetComponent<PaddleController>())
+        {
+            // Destroy this powerup if we already have it
+            GameObject detector = Instantiate(ballDetector, other.transform.position, Quaternion.identity);
+            detector.transform.parent = other.transform;
+        }
     }
 }
