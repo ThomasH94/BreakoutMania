@@ -34,13 +34,13 @@
               <e p="CollectableData.cs" t="Include" />
               <e p="CollectableManager.cs" t="Include" />
               <e p="ICollectable.cs" t="Include" />
+              <e p="LifeCollectable.cs" t="Include" />
             </e>
             <e p="Event Systems" t="Include">
               <e p="EventManager.cs" t="Include" />
             </e>
             <e p="Game Mangement Systems" t="Include">
               <e p="GameplayManager.cs" t="Include" />
-              <e p="ObjectiveManager.cs" t="Include" />
               <e p="SceneController.cs" t="Include" />
             </e>
             <e p="GameLevel Systems" t="Include">
@@ -58,13 +58,20 @@
               <e p="SnapBall.cs" t="Include" />
               <e p="SnapBallPowerup.cs" t="Include" />
             </e>
+            <e p="Rendering Systems" t="Include">
+              <e p="PostProcessingManager.cs" t="Include" />
+            </e>
+            <e p="SaveLoad Systems" t="Include">
+              <e p="GameData.cs" t="Include" />
+              <e p="SaveGameManager.cs" t="Include" />
+            </e>
             <e p="Scoring Systems" t="Include">
               <e p="LivesManager.cs" t="Include" />
               <e p="Score.cs" t="Include" />
               <e p="ScoreController.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
-              <e p="GameResults.cs" t="Include" />
+              <e p="ResultsController.cs" t="Include" />
             </e>
             <e p="Utility" t="Include">
               <e p="BallDetector.cs" t="Include" />
@@ -153,20 +160,6 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
-        </e>
-        <e p="Universal Sound FX" t="Include">
-          <e p="#Game Genre References" t="Include">
-            <e p="8bit and Retro.txt" t="Include" />
-            <e p="Fighting.txt" t="Include" />
-            <e p="First Person Shooter (FPS).txt" t="Include" />
-            <e p="Physics.txt" t="Include" />
-            <e p="Platform.txt" t="Include" />
-            <e p="Puzzle.txt" t="Include" />
-            <e p="Real Time Stategy (RTS) Medieval.txt" t="Include" />
-            <e p="Real Time Stategy (RTS) Sci-Fi.txt" t="Include" />
-            <e p="Shoot em Up.txt" t="Include" />
-          </e>
-          <e p="version_history.txt" t="Include" />
         </e>
       </e>
       <e p="BreakoutMania.sln" t="IncludeFlat" />

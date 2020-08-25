@@ -30,6 +30,16 @@ namespace BrickBreak.Paddles
         private float _horizontalInput = 0.0f;
         #endregion
 
+        private void OnEnable()
+        {
+            GameplayManager.OnLevelCompleted += DisablePaddle;
+        }
+
+        private void OnDisable()
+        {
+            GameplayManager.OnLevelCompleted -= DisablePaddle;
+        }
+
         private void Start()
         {
             _horizontalMoveClamp = MainCameraController.Instance.HorizontalScreenSize - screenOffset;
@@ -56,6 +66,11 @@ namespace BrickBreak.Paddles
             position.x = Mathf.Clamp(position.x, -_horizontalMoveClamp, _horizontalMoveClamp);
 
             paddleRigidBody.MovePosition(position);
+        }
+
+        private void DisablePaddle()
+        {
+            canMove = false;
         }
         
     }

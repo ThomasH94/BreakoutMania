@@ -16,15 +16,14 @@ namespace BrickBreak.Collectables
                 Debug.LogError("<color=redERROR! No BallManager available..powerup failed..</color>");
                 return;
             }
-
-            float randomOffset = Random.Range(-0.3f, 0.3f);
-            Vector2 positionOffset = new Vector2(randomOffset, randomOffset);
+            
             foreach (BallController ball in BallManager.Instance.AllBalls.ToList())
             {
-                BallManager.Instance.SpawnBalls((Vector2) ball.gameObject.transform.position + positionOffset, 2,
+
+                BallManager.Instance.SpawnBalls((Vector2) ball.gameObject.transform.position, 2,
                     multiBallData);
             }
-            
+
             base.ApplyPowerup();
         }
     }

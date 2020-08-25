@@ -7,9 +7,6 @@ using UnityEngine;
  {
      public abstract class Powerup : Collectable, ICollectable
      {
-         // Seperate powerups into timed and usage based - i.e. limited ammo
-         [SerializeField] protected PowerupData powerupData;
-
          public static Action<Powerup> OnAnyPowerupTriggered;
 
          public override void OnCollect()

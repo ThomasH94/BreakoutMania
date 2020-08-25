@@ -37,6 +37,6 @@ public class Score : MonoBehaviour
     private void UpdateScoreText()
     {
         // Should do an animation...
-        scoreText.text = "Score: " + _currentScore.ToString("000");
+        scoreText.text = "Score: " + _currentScore.ToString("0000000");
     }
 }

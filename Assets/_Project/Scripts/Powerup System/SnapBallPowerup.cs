@@ -6,14 +6,22 @@ using UnityEngine;
 public class SnapBallPowerup : Powerup
 {
     public GameObject ballDetector;
-    
+
     protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.GetComponent<PaddleController>())
         {
             // Destroy this powerup if we already have it
-            GameObject detector = Instantiate(ballDetector, other.transform.position, Quaternion.identity);
-            detector.transform.parent = other.transform;
+            SnapBall snapBall = other.GetComponentInChildren<SnapBall>();
+            if (snapBall)
+            {
+                snapBall.UpdateSnapCount(3);
+            }
+            else
+            {
+                GameObject detector = Instantiate(ballDetector, other.transform.position, Quaternion.identity);
+                detector.transform.parent = other.transform;   
+            }
         }
     }
 }

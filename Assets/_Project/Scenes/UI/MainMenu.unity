@@ -206,7 +206,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5706389270288728193, guid: 6575f81d1d34d46408475e2c26879ff7,
           type: 3}
-        m_MethodName: LoadAScene
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

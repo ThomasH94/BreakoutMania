@@ -7,6 +7,7 @@ using UnityEngine;
 public class SnapBall : MonoBehaviour
 {
     private BallDetector _ballDetector;
+    public int snapCount = 3;
 
     private void Start()
     {
@@ -27,6 +28,22 @@ public class SnapBall : MonoBehaviour
         if (_ballDetector.ball)
         {
             BallManager.Instance.SnapBall(_ballDetector.ball);
+            UpdateSnapCount(-1);
         }
+    }
+    
+    public void UpdateSnapCount(int amount)
+    {
+        snapCount += amount;
+        if (snapCount > 3)
+            snapCount = 3;
+        
+        if (snapCount <= 0)
+            DestroyPowerup();
+    }
+
+    private void DestroyPowerup()
+    {
+        Destroy(gameObject);
     }
 }

@@ -6,6 +6,7 @@ using BrickBreak.Paddles;
 using BrickBreak.Singletons;
 using Unity.Mathematics;
 using UnityEngine;
+using Random = System.Random;
 
 public class BallManager : Singleton<BallManager>
 {
@@ -57,7 +58,6 @@ public class BallManager : Singleton<BallManager>
     {
         _defaultBall = snappedBall;
         RespawnBall();
-        Debug.Log("Oh SNAP! A ball!");
     }
 
     private void AddBall()
@@ -89,7 +89,7 @@ public class BallManager : Singleton<BallManager>
         for (int i = 0; i < amount; i++)
         {
             // Create new balls based on the amount, give them a force, and add them to our ball list
-            float spawnOffset = i * 0.2f;
+            float spawnOffset = UnityEngine.Random.Range(-0.5f, 0.5f) + i; 
             Vector2 spawnPosition = new Vector2(transformPosition.x + spawnOffset, transformPosition.y);
             
             BallController spawnedBall = Instantiate(ballPrefab, transformPosition, quaternion.identity);

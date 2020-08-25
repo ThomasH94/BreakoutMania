@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559eab1544379154c8e8c3105b09361d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collectableData: {fileID: 0}
+  _collectableData: {fileID: 11400000, guid: 3e8ef92f36d0cd241b4945eb7457cab4, type: 2}
   _sfxPlayer: {fileID: 0}
-  powerupData: {fileID: 0}
   ballDetector: {fileID: 5819448298359792332, guid: d5b360b7e88cfbc46baab8383425fdba,
     type: 3}
 --- !u!1001 &3807924603304121423

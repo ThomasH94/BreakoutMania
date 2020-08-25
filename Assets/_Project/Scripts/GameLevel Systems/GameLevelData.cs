@@ -11,8 +11,9 @@ namespace BrickBreak.Data
     [CreateAssetMenu(menuName = "Scriptable Objects/Game Level Data", fileName = "New Level Data")]
     public class GameLevelData : DataObject
     {
-        public BrickInfo[] levelBricks;
+        //public BrickInfo[] levelBricks;
         public int highScore;
+        public bool isUnlocked;
 
     }
 

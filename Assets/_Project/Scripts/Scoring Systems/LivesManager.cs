@@ -23,38 +23,43 @@ public class LivesManager : Singleton<LivesManager>
     private void Start()
     {
         Lives = startingLives;
-        SetLives();
+        UpdateLivesText();
     }
 
     private void OnEnable()
     {
-        EventManager.StartListening("Lost Life", UpdateLives);
+        EventManager.StartListening("Lose Life", LoseLife);
     }
 
     private void OnDisable()
     {
-        EventManager.StopListening("Lost Life", UpdateLives);
+        EventManager.StopListening("Lose Life", LoseLife);
     }
 
-    private void SetLives()
+    private void UpdateLivesText()
     {
         livesText.text = infiniteLives ? "∞" : $"Lives: {Lives.ToString()}";
     }
 
     // Lives will always have a default amount sent in based on the levels objective to add
     // an extra layer of challenge with no way to gain additional lives
-    private void UpdateLives()
+    private void LoseLife()
     {
         if(infiniteLives)
             return;
         
-        Debug.Log("SOMETHING");
         Lives--;
-        if (Lives == 0)
+        if (Lives <= 0)
         {
-            _sceneController.LoadAScene("MainMenu");
+            GameplayManager.Instance.LevelCompleted(false);
         }
-        SetLives();
+
+    }
+
+    public void GainLives(int amount)
+    {
+        Lives += amount;
+        UpdateLivesText();
     }
 
 }

@@ -46,7 +46,7 @@ public class BrickManager : Singleton<BrickManager>
 
         if (brickCount == 0)
         {
-            EventManager.TriggerEvent("Objective Complete");
+            GameplayManager.Instance.LevelCompleted(true);
         }
     }
 }

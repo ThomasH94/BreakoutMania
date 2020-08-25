@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using BrickBreak.Breakable;
 using BrickBreak.Collectables;
 using BrickBreak.Data;
+using BrickBreak.Data.Collectables;
 using BrickBreak.Singletons;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class CollectableManager : Singleton<CollectableManager>
 {
-    public List<PowerupData> allPowerups;
-    public List<PowerupData> allPowerdowns;
-    
-    private List<Powerup> activePowerups;
+    public List<CollectableData> allCollectables;
 
-    [Range(0,100)]
-    public float PowerupSpawnChance;
-    [Range(0,100)]
-    public float PowerdownSpawnChance;
+    private List<Powerup> activePowerups;
 
     private void OnEnable()
     {
@@ -26,34 +19,58 @@ public class CollectableManager : Singleton<CollectableManager>
 
     private void OnAnyBrickDestroyedHandler(Brick destroyedBrick)
     {
+        // Should a collectable be spawned?
+        int spawnCollectable = Random.Range(0, 3);
+        if (spawnCollectable < 2)
+            return;
         
+        SpawnPowerup(destroyedBrick.transform.position);
     }
 
-    private Powerup CheckPowerupChance()
+    public void SpawnPowerup(Vector2 spawnLocation)
     {
-        return null;
+        int randomCollectable = GetWeightedCollectable();
+        CollectableData collectableToSpawn = allCollectables[randomCollectable];
+        
+        Instantiate(collectableToSpawn.collectablePrefab, spawnLocation, Quaternion.identity);
+        
+        Debug.Log("Powerup Spawned!");
     }
 
-    public void SpawnPowerup()
+    private int GetWeightedCollectable()
     {
-        Powerup powerupToSpawn = CheckPowerupChance();
-        if (powerupToSpawn != null)
+        List<int> collectableWeights = new List<int>();
+        int totalCollectableWeight = 0;
+        
+        foreach (CollectableData collectable in allCollectables) 
         {
-            powerupToSpawn = (Powerup) Instantiate(powerupToSpawn, Vector3.back, Quaternion.identity);
+            totalCollectableWeight += collectable.collectableWeight;
+            collectableWeights.Add(collectable.collectableWeight);
         }
+
+
+        int result = 0;
+        int totalWeight = 0;
+        
+        int randomWeight = Random.Range(0, totalCollectableWeight);
+        for (result = 0; result < collectableWeights.Count; result++) 
+        {
+            totalWeight += collectableWeights[result];
+            
+            if (totalWeight > randomWeight) 
+                break;
+        }
+
+        return result;
     }
     
 
-    private void OnAnyPowerupTriggeredHandler()
-    {
-        
-    }
-
     private void RemovePowerups()
     {
+        // When the player loses a life
         foreach (Powerup powerupComponent in activePowerups)
         {
-            
+            Destroy(powerupComponent);
         }
     }
 }

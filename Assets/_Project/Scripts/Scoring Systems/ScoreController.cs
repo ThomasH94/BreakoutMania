@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ScoreController : Singleton<ScoreController>
 {
-    [SerializeField] private Score score = null;
+    public Score score;
 
     private void OnEnable()
     {

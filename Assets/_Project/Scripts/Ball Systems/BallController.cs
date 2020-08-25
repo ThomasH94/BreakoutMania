@@ -80,15 +80,8 @@ namespace BrickBreak.Ball
             }
         }
 
-        /// <summary>
-        /// When the ball hits the paddle, we need to decide where to send it based on the angle it hit from
-        /// We can check the x position of the ball and paddle, then subtract them
-        /// Finally, divide that by the width of the paddle (which can grow with power ups)
-        /// </summary>
-        /// <param name="ballPosition"></param>
-        /// <param name="paddlePosition"></param>
-        /// <param name="paddleWidth"></param>
-        /// <returns></returns>
+        /// When the ball hits the paddle, we compare both positions x values, divide by paddle with, and
+        /// bounce with that much force
         private float HitFactor(Vector2 ballPosition, Vector2 paddlePosition, float paddleWidth)
         {
             // Visual example:
