@@ -1,13 +1,14 @@
 ﻿using System.Linq;
 using BrickBreak.Ball;
 using BrickBreak.Data;
+using BrickBreak.GameManagement;
 using UnityEngine;
 
-namespace BrickBreak.Collectables
+namespace BrickBreak.Collectibles
 {
     public class MultiBallPowerup : Powerup
     {
-        [SerializeField] private BallData multiBallData;
+        [SerializeField] private BallData multiBallData = null;
 
         protected override void ApplyPowerup()
         {

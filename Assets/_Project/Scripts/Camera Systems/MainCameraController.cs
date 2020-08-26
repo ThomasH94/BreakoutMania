@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
+using BrickBreak.EventManagement;
 using BrickBreak.Singletons;
 using UnityEngine;
 
 namespace BrickBreak.Cameras
 {
-    // TODO: Rename this to Camera Controller, and have all of the cinemachine cameras we'll need to control
     public class MainCameraController : Singleton<MainCameraController>
     {
         public Camera mainCamera;

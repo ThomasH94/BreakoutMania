@@ -3,9 +3,9 @@ using BrickBreak.Data;
 using BrickBreak.Paddles;
 using UnityEngine;
 
- namespace BrickBreak.Collectables
+ namespace BrickBreak.Collectibles
  {
-     public abstract class Powerup : Collectable, ICollectable
+     public abstract class Powerup : Collectible, ICollectible
      {
          public static Action<Powerup> OnAnyPowerupTriggered;
 
@@ -19,6 +19,11 @@ using UnityEngine;
          {
             OnAnyPowerupTriggered?.Invoke(this);
          }
-         
+
+         protected virtual void RemovePowerup()
+         {
+             
+         }
+
      }
  }

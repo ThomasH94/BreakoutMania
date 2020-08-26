@@ -1,26 +1,36 @@
-﻿using BrickBreak.Collectables;
+﻿using BrickBreak.Collectibles;
 using BrickBreak.Paddles;
-using Unity.Mathematics;
 using UnityEngine;
 
-public class SnapBallPowerup : Powerup
+namespace BrickBreak.Powerups
 {
-    public GameObject ballDetector;
 
-    protected void OnTriggerEnter2D(Collider2D other)
+    public class SnapBallPowerup : Powerup
     {
-        if (other.gameObject.GetComponent<PaddleController>())
+        public GameObject ballDetector;
+        public GameObject powerupUI;
+
+        protected override void ApplyPowerup()
         {
-            // Destroy this powerup if we already have it
-            SnapBall snapBall = other.GetComponentInChildren<SnapBall>();
-            if (snapBall)
+            //Instantiate the powerupUI to the Powerup Canvas
+            base.ApplyPowerup();
+        }
+
+        protected new void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.GetComponent<PaddleController>())
             {
-                snapBall.UpdateSnapCount(3);
-            }
-            else
-            {
-                GameObject detector = Instantiate(ballDetector, other.transform.position, Quaternion.identity);
-                detector.transform.parent = other.transform;   
+                // Destroy this powerup if we already have it
+                SnapBall snapBall = other.GetComponentInChildren<SnapBall>();
+                if (snapBall)
+                {
+                    snapBall.UpdateSnapCount(3);
+                }
+                else
+                {
+                    GameObject detector = Instantiate(ballDetector, other.transform.position, Quaternion.identity);
+                    detector.transform.parent = other.transform;
+                }
             }
         }
     }

@@ -1,32 +1,41 @@
-﻿using UnityEngine;
+﻿using System;
+using BrickBreak.GameManagement;
+using BrickBreak.Singletons;
+using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]    // TODO: Move to the IAudible Interface as well as SFXPlayer
-public class MusicPlayer : MonoBehaviour
+namespace BrickBreak.Audio
 {
-    private float _audioTime = 0f;
-    
-    [SerializeField] private float loopStart = 0f;
-    [SerializeField] private float loopEnd = 0f; 
-
-    private AudioSource _musicSource;
-
-    private void Start()
+    [RequireComponent(typeof(AudioSource))] // TODO: Move to the IAudible Interface as well as SFXPlayer
+    public class MusicPlayer : Singleton<MusicPlayer>
     {
-        _musicSource = GetComponent<AudioSource>();
-    }
 
-    private void PlayMusic()
-    {
-        _musicSource.Play();
-    }
+        private AudioSource _musicSource;
 
-
-    private void Update()
-    {
-        _audioTime += Time.deltaTime;
-        if (_audioTime >= loopEnd)
+        protected override void Awake()
         {
-            _audioTime = loopStart;
+            base.Awake();
+            DontDestroyOnLoad(gameObject);
+        }
+
+        private void OnEnable()
+        {
+            SceneController.OnLevelWasLoaded += PlayMusic;
+        }
+
+        private void OnDisable()
+        {
+            SceneController.OnLevelWasLoaded -= PlayMusic;
+        }
+
+        private void Start()
+        {
+            _musicSource = GetComponent<AudioSource>();
+        }
+
+        private void PlayMusic()
+        {
+            if (!_musicSource.isPlaying)
+                _musicSource.Play();
         }
     }
 }

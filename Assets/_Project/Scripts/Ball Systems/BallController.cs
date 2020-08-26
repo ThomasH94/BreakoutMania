@@ -1,5 +1,6 @@
 ﻿using System;
 using BrickBreak.Data;
+using BrickBreak.GameManagement;
 using BrickBreak.Paddles;
 using UnityEngine;
 
@@ -24,8 +25,17 @@ namespace BrickBreak.Ball
         {
             SetupBall();
         }
-        
 
+        private void OnEnable()
+        {
+            GameplayManager.OnLevelCompleted += DisableBall;
+        }
+        
+        private void OnDisable()
+        {
+            GameplayManager.OnLevelCompleted -= DisableBall;
+        }
+        
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.Space) && !_ballServed)
@@ -34,7 +44,6 @@ namespace BrickBreak.Ball
             }
         }
         
-
         public void SetupBall()
         {
             // Used for getting components, setting graphics, and more
@@ -48,6 +57,7 @@ namespace BrickBreak.Ball
         {
             _ballServed = false;
             ballRigidBody.simulated = false;    // To fix issues with parenting
+
         }
 
         public void ServeBall()
@@ -101,6 +111,11 @@ namespace BrickBreak.Ball
         {
             OnAnyBallDestroyed?.Invoke(this);
             Destroy(gameObject);
+        }
+
+        private void DisableBall()
+        {
+            ballRigidBody.simulated = false;
         }
     }
 }

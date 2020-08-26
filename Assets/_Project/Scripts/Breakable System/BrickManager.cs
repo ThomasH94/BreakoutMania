@@ -2,7 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using BrickBreak.Breakable;
+using BrickBreak.GameManagement;
 using BrickBreak.Singletons;
+using BrickBreak.UI;
 using UnityEngine;
 
 public class BrickManager : Singleton<BrickManager>
@@ -11,12 +13,6 @@ public class BrickManager : Singleton<BrickManager>
     [SerializeField] private GameObject[] bricks = new GameObject[] {};
 
     private GridCreator2D _gridCreator2D;
-
-    protected override void Awake()
-    {
-        base.Awake();
-        // TODO: Load bricks via addressables
-    }
 
     private void OnEnable()
     {

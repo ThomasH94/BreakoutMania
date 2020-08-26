@@ -10,7 +10,6 @@
         <e p="_Project" t="Include">
           <e p="Scripts" t="Include">
             <e p="Audio Systems" t="Include">
-              <e p="IAudible.cs" t="Include" />
               <e p="MusicPlayer.cs" t="Include" />
               <e p="SFXPlayer.cs" t="Include" />
             </e>
@@ -29,12 +28,12 @@
               <e p="CinemachineCameraShake.cs" t="Include" />
               <e p="MainCameraController.cs" t="Include" />
             </e>
-            <e p="Collectable System" t="Include">
-              <e p="Collectable.cs" t="Include" />
-              <e p="CollectableData.cs" t="Include" />
-              <e p="CollectableManager.cs" t="Include" />
-              <e p="ICollectable.cs" t="Include" />
-              <e p="LifeCollectable.cs" t="Include" />
+            <e p="Collectible System" t="Include">
+              <e p="Collectible.cs" t="Include" />
+              <e p="CollectibleData.cs" t="Include" />
+              <e p="CollectibleManager.cs" t="Include" />
+              <e p="ICollectible.cs" t="Include" />
+              <e p="LifeCollectible.cs" t="Include" />
             </e>
             <e p="Event Systems" t="Include">
               <e p="EventManager.cs" t="Include" />
@@ -42,6 +41,7 @@
             <e p="Game Mangement Systems" t="Include">
               <e p="GameplayManager.cs" t="Include" />
               <e p="SceneController.cs" t="Include" />
+              <e p="ThemeData.cs" t="Include" />
             </e>
             <e p="GameLevel Systems" t="Include">
               <e p="GameLevelData.cs" t="Include" />
@@ -51,12 +51,13 @@
               <e p="PaddleData.cs" t="Include" />
             </e>
             <e p="Powerup System" t="Include">
-              <e p="GiantBallPowerup.cs" t="Include" />
+              <e p="LimitedUsePowerup.cs" t="Include" />
               <e p="MultiBallPowerup.cs" t="Include" />
               <e p="PowerUp.cs" t="Include" />
               <e p="PowerupData.cs" t="Include" />
               <e p="SnapBall.cs" t="Include" />
               <e p="SnapBallPowerup.cs" t="Include" />
+              <e p="TimedPowerup.cs" t="Include" />
             </e>
             <e p="Rendering Systems" t="Include">
               <e p="PostProcessingManager.cs" t="Include" />
@@ -69,9 +70,13 @@
               <e p="LivesManager.cs" t="Include" />
               <e p="Score.cs" t="Include" />
               <e p="ScoreController.cs" t="Include" />
+              <e p="TimerManager.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
+              <e p="GameplayLevelManager.cs" t="Include" />
+              <e p="LevelSelector.cs" t="Include" />
               <e p="ResultsController.cs" t="Include" />
+              <e p="WorldLevelCreator.cs" t="Include" />
             </e>
             <e p="Utility" t="Include">
               <e p="BallDetector.cs" t="Include" />
@@ -79,8 +84,15 @@
               <e p="DeathOnTouch.cs" t="Include" />
               <e p="GridCreator.cs" t="Include" />
               <e p="IInteractable.cs" t="Include" />
+              <e p="ILimitable.cs" t="Include" />
               <e p="ISetupable.cs" t="Include" />
+              <e p="ITimedDestroyable.cs" t="Include" />
+              <e p="LeanTweenMover.cs" t="Include" />
+              <e p="LeanTweenScaler.cs" t="Include" />
+              <e p="LoadNextLevel.cs" t="Include" />
+              <e p="ReloadLevel.cs" t="Include" />
               <e p="Singleton.cs" t="Include" />
+              <e p="TimeManipulator.cs" t="Include" />
             </e>
           </e>
         </e>

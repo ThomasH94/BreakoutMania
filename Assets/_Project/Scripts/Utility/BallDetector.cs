@@ -8,9 +8,8 @@ using UnityEngine;
 public class BallDetector : MonoBehaviour
 {
     public BallController ball;
-    [SerializeField] private CircleCollider2D detectorCollider2D;
-    [SerializeField] private float detectorRadius;
-    private bool ballCaptured = false;
+    [SerializeField] private CircleCollider2D detectorCollider2D = null;
+    [SerializeField] private float detectorRadius = 0;
 
     private void Start()
     {
@@ -30,7 +29,6 @@ public class BallDetector : MonoBehaviour
             if (capturedBall._ballServed)
             {
                 ball = capturedBall;
-                ballCaptured = true;
             }
         }
     }
@@ -39,7 +37,6 @@ public class BallDetector : MonoBehaviour
     {
         if (other.gameObject.GetComponent<BallController>() == ball)
         {
-            ballCaptured = false;
             ball = null;
         }
     }

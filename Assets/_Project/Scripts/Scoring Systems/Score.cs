@@ -1,42 +1,42 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
-public class Score : MonoBehaviour
+namespace BrickBreak.Scoring
 {
-    private int _currentScore;
-
-    public int CurrentScore
+    public class Score : MonoBehaviour
     {
-        get => _currentScore;
-        set
+        private int _currentScore;
+
+        public int CurrentScore
         {
-            _currentScore = value;
+            get => _currentScore;
+            set
+            {
+                _currentScore = value;
+                UpdateScoreText();
+            }
+        }
+
+        [SerializeField] private TextMeshProUGUI scoreText;
+
+        private void Start()
+        {
+            SetupScore();
             UpdateScoreText();
         }
-    }
 
-    [SerializeField] private TextMeshProUGUI scoreText;
-
-    private void Start()
-    {
-        SetupScore();
-        UpdateScoreText();
-    }
-
-    private void SetupScore()
-    {
-        if (scoreText == null)
+        private void SetupScore()
         {
-            scoreText = GetComponent<TextMeshProUGUI>();
+            if (scoreText == null)
+            {
+                scoreText = GetComponent<TextMeshProUGUI>();
+            }
         }
-    }
 
-    private void UpdateScoreText()
-    {
-        // Should do an animation...
-        scoreText.text = "Score: " + _currentScore.ToString("0000000");
+        private void UpdateScoreText()
+        {
+            // Should do an animation...
+            scoreText.text = "Score: " + _currentScore.ToString("0000000");
+        }
     }
 }

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
+using BrickBreak.Audio;
 using BrickBreak.Ball;
-using BrickBreak.Data.Brick;
+using BrickBreak.Data;
+using BrickBreak.EventManagement;
 using BrickBreak.Utility;
 using UnityEngine;
 
@@ -17,7 +19,10 @@ namespace BrickBreak.Breakable
         public BrickData brickData;
         public int Health { get; set; }
 
-        [Header("Presentation")] private SFXPlayer _sfxPlayer;
+        [Header("Presentation")] 
+        private SFXPlayer _sfxPlayer;
+
+        private SpriteRenderer brickRenderer;
 
         private void Start()
         {
@@ -34,6 +39,7 @@ namespace BrickBreak.Breakable
 
             Collider2D brickCollider = GetComponent<Collider2D>();
             brickCollider.sharedMaterial = brickData.brickPhysicsMaterial;
+            brickRenderer = GetComponentInChildren<SpriteRenderer>();
         }
 
 
@@ -58,7 +64,6 @@ namespace BrickBreak.Breakable
             {
                 // Destroy and add points -- play animation and sounds on hit
                 OnAnyBrickDied?.Invoke(this);
-
                 Die();
             }
             else
@@ -70,9 +75,11 @@ namespace BrickBreak.Breakable
 
         public void Die()
         {
+  
             Collider2D brickCollider = GetComponent<Collider2D>();
             brickCollider.enabled = false;    // To prevent multi-ball from hitting this multiple times
-            Destroy(gameObject, 0.1f); // Currently, we are not pooling this object, so we'll destroy it
+            brickRenderer.enabled = false;
+            Destroy(gameObject, 1.0f); // Currently, we are not pooling this object, so we'll destroy it
         }
         
         private void Crumble()

@@ -2,21 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
-public class SFXPlayer : MonoBehaviour
+namespace BrickBreak.Audio
 {
-    [SerializeField] private AudioSource sfxSource;
-    public AudioClip sfxToPlay;
-    // Start is called before the first frame update
-    void Start()
+    [RequireComponent(typeof(AudioSource))]
+    public class SFXPlayer : MonoBehaviour
     {
-        sfxSource = GetComponent<AudioSource>();
-    }
+        [SerializeField] private AudioSource sfxSource;
 
-    public void PlaySFX()
-    {
-        sfxSource.clip = sfxToPlay;
-        sfxSource.PlayOneShot(sfxToPlay);
+        public AudioClip sfxToPlay;
+        
+        private void Start()
+        {
+            sfxSource = GetComponent<AudioSource>();
+        }
+
+        public void PlaySFX()
+        {
+            sfxSource.clip = sfxToPlay;
+            sfxSource.PlayOneShot(sfxToPlay);
+        }
     }
-    
 }

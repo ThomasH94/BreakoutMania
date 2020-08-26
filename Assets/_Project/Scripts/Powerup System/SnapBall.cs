@@ -1,49 +1,57 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using BrickBreak.Data;
+﻿using BrickBreak.GameManagement;
 using UnityEngine;
 
-public class SnapBall : MonoBehaviour
+namespace BrickBreak.Powerups
 {
-    private BallDetector _ballDetector;
-    public int snapCount = 3;
 
-    private void Start()
+    public class SnapBall : MonoBehaviour, ILimitable
     {
-        if (_ballDetector == null)
-            _ballDetector = GetComponent<BallDetector>();
-    }
+        private BallDetector _ballDetector;
+        public int snapCount = 3;
+        public int Uses { get; set; }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.S))
+
+        private void Start()
         {
-            Snap();
+            if (_ballDetector == null)
+                _ballDetector = GetComponent<BallDetector>();
         }
-    }
 
-    public void Snap()
-    {
-        if (_ballDetector.ball)
+        private void Update()
         {
-            BallManager.Instance.SnapBall(_ballDetector.ball);
-            UpdateSnapCount(-1);
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                Snap();
+            }
         }
-    }
-    
-    public void UpdateSnapCount(int amount)
-    {
-        snapCount += amount;
-        if (snapCount > 3)
-            snapCount = 3;
-        
-        if (snapCount <= 0)
-            DestroyPowerup();
-    }
 
-    private void DestroyPowerup()
-    {
-        Destroy(gameObject);
+        public void Snap()
+        {
+            if (_ballDetector.ball)
+            {
+                BallManager.Instance.SnapBall(_ballDetector.ball);
+                UpdateSnapCount(-1);
+            }
+        }
+
+        public void UpdateSnapCount(int amount)
+        {
+            snapCount += amount;
+            if (snapCount > 3)
+                snapCount = 3;
+
+            if (snapCount <= 0)
+                DestroyPowerup();
+        }
+
+        private void DestroyPowerup()
+        {
+            Destroy(gameObject);
+        }
+
+        public void Use()
+        {
+
+        }
     }
 }

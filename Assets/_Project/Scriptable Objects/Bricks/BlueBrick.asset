@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f331f9c7ec0f72a4894a45111388d0a7, type: 3}
   m_Name: BlueBrick
   m_EditorClassIdentifier: 
-  dataName: BlueBrick
   dataDescription: Tougher brick that takes 2 hits but is more likely to spawn an
     item.
   Health: 2
   brickSprite: {fileID: 0}
   brickColor: {r: 0, g: 0.6988592, b: 1, a: 0}
   crumbleSprites: []
-  scoreAmount: 30
+  scoreAmount: 300
   brickPhysicsMaterial: {fileID: 6200000, guid: 923fc72352d78b34ca71495499324c20,
     type: 2}
   spawnChance: 0
+  Indestructible: 0

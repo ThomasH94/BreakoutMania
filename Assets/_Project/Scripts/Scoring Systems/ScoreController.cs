@@ -1,25 +1,45 @@
-﻿using System;
-using BrickBreak.Collectables;
+﻿using BrickBreak.Collectibles;
+using BrickBreak.GameManagement;
+using BrickBreak.Scoring;
 using BrickBreak.Singletons;
-using UnityEngine;
 
-public class ScoreController : Singleton<ScoreController>
+namespace BrickBreak.UI
 {
-    public Score score;
 
-    private void OnEnable()
+    public class ScoreController : Singleton<ScoreController>
     {
-        Collectable.OnAnyCollectable += UpdateScore;
-    }
-    
-    private void OnDisable()
-    {
-        Collectable.OnAnyCollectable -= UpdateScore;
-    }
+        public Score score;
 
-    public void UpdateScore(int scoreAmount)
-    {
-        score.CurrentScore += scoreAmount;
-    }
+        #region Multipliers
 
+        public int livesMultipler;
+        public int powerupMultiplier;
+
+        #endregion
+
+        private void OnEnable()
+        {
+            Collectible.OnAnyCollectible += UpdateScore;
+        }
+
+        private void OnDisable()
+        {
+            Collectible.OnAnyCollectible -= UpdateScore;
+        }
+
+        public void UpdateScore(int scoreAmount)
+        {
+            score.CurrentScore += scoreAmount;
+        }
+
+        public int CalculateTotalScore()
+        {
+            int currentScore = score.CurrentScore;
+            int livesBonusScore = LivesManager.Instance.Lives * livesMultipler;
+            int activePowerupBonusScore = CollectibleManager.Instance.activePowerups.Count * powerupMultiplier;
+
+            return currentScore + livesBonusScore + activePowerupBonusScore;
+
+        }
+    }
 }

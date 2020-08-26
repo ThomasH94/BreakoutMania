@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BrickBreak.Data.Brick
+namespace BrickBreak.Data
 {
 
     [CreateAssetMenu(menuName = "Scriptable Objects/Brick Data", fileName = "New Brick Data")]

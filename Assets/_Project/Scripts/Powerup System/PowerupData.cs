@@ -1,11 +1,10 @@
-﻿using BrickBreak.Data.Collectables;
+﻿using BrickBreak.Data.Collectibles;
 using UnityEngine;
 
-//TODO: Remove - Collectables cover all the bases here..
 namespace BrickBreak.Data
 {
     [CreateAssetMenu(menuName = "Scriptable Objects/Powerup Data", fileName = "New Powerup Data")]
-    public class PowerupData : CollectableData
+    public class PowerupData : CollectibleData
     {
         private GameObject powerupPrefab;
     }

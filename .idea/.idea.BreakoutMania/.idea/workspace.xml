@@ -23,45 +23,99 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BreakoutMania/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Collectable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Collectable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/MultiBallPowerup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/MultiBallPowerup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/SnapPowerup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/SnapPowerup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/SceneController.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/SceneController.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackFollowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackLines.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackLines.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Collectable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Collectable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Gem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Gem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Life.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/Life.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/BallDetector.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/BallDetector.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/GiantBallPowerup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/GiantBallPowerup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/MultiBallPowerup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/MultiBallPowerup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/SnapPowerup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Collectables/PowerUps/SnapPowerup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gamemanagement/GameplayManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gamemanagement/GameplayManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gamemanagement/SceneController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Gamemanagement/SceneController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/ResultsCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/ResultsCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay/Gameplay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay/Gameplay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Gameplay/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/UI/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/UI/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/UI/Results.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/UI/Results.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/BlueBrick.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Bricks/RedBrick.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Coin.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Coin.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Gem.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Gem.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Life.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Collectables/Life.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Game Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Game Data/PlayerGameData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Game Data/PlayerGameData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Levels/Level One.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Levels/Level One.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/MultiBallPowerup.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/MultiBallPowerup.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/SnapBallPowerup.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Powerups/SnapBallPowerup.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Themes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scriptable Objects/Themes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/ICollectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/ICollectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/LifeCollectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/LifeCollectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Rendering Systems/PostProcessingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Rendering Systems/PostProcessingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/GameData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/SaveGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/SaveGameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResultsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/BallDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/BallDetector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,104 +128,120 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.8.4/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/LeanTweenMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ReloadLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/SaveGameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/ICollectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Rendering Systems/PostProcessingManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LeanTween/Framework/LeanTween.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/2f/db0a6486/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/35/8fa5b398/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameplayLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/BallDetector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ILimitable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/TimedPowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/LifeCollectible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/LimitedUsePowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/LevelSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ITimedDestroyable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/WorldLevelCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/ICollectible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/35/8fa5b398/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/IInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/CollectibleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResultsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/CollectibleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ThemeData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/Collectible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Utility/LoadNextLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ISetupable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/GridCreator.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ObjectiveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Cameras/MainCameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ICollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/ItemCollectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/PowerupBrick.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/IDamagable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerdownData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DataObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/TimedPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ILimitable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/AssetReferenceLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/LevelDataHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/WorldMapController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/LeanTweenMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/GiantBallPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/BallDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/AssetReferenceObjectData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/TimerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/IAudible.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Audio Systems/SFXPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/Collectable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/IInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/BallDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/DeathOnTouch.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Rendering Systems/PostProcessingManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/Powerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBallPowerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectable System/CollectableManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/Collectible.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/CollectibleData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/ICollectible.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Event Systems/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/CinemachineCameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Camera Systems/MainCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/LifePowerup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/GameLevel Systems/GameLevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/SaveGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/Brick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/CollectibleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/MultiBallPowerup.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResultsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Rendering Systems/PostProcessingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/GameplayManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/ThemeData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/LimitedUsePowerup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/PowerupData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Powerup System/SnapBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Ball Systems/BallController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Breakable System/BrickManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Paddle System/PaddleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/LivesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Scoring Systems/ScoreController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Collectible System/LifeCollectible.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/LevelInfoDisplayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/WorldLevelCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/LevelSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/GameplayLevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/ReloadLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Utility/LoadNextLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Game Mangement Systems/SceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/SaveLoad Systems/SaveGameManager.cs" />
       </list>
     </option>
   </component>
@@ -181,8 +251,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29988974" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -196,10 +266,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30428">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="30428" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -219,7 +289,11 @@
       <workItem from="1598057166001" duration="62632000" />
       <workItem from="1598251444642" duration="2117000" />
       <workItem from="1598257933389" duration="7001000" />
-      <workItem from="1598294817076" duration="15011000" />
+      <workItem from="1598294817076" duration="24915000" />
+      <workItem from="1598332828981" duration="15355000" />
+      <workItem from="1598350904328" duration="1098000" />
+      <workItem from="1598352306060" duration="33371000" />
+      <workItem from="1598403641935" duration="640000" />
     </task>
     <servers />
   </component>
@@ -249,90 +323,90 @@
     </state>
     <state width="446" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598217241854" />
     <state width="409" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597908253085" />
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1598308294966">
+    <state width="938" height="129" key="GridCell.Tab.0.bottom" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308294966" />
+    <state width="938" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1598308294966">
+    <state width="938" height="129" key="GridCell.Tab.0.center" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308294966" />
+    <state width="938" height="129" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1598308294965">
+    <state width="938" height="129" key="GridCell.Tab.0.left" timestamp="1598402870940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308294965" />
+    <state width="938" height="129" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870940" />
     <state width="1860" height="128" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1598308294966">
+    <state width="938" height="129" key="GridCell.Tab.0.right" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308294966" />
+    <state width="938" height="129" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.1.bottom" timestamp="1598308324266">
+    <state width="938" height="129" key="GridCell.Tab.1.bottom" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308324266" />
+    <state width="938" height="129" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.1.center" timestamp="1598308324266">
+    <state width="938" height="129" key="GridCell.Tab.1.center" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308324266" />
+    <state width="938" height="129" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.1.left" timestamp="1598308324265">
+    <state width="938" height="129" key="GridCell.Tab.1.left" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308324265" />
+    <state width="938" height="129" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.1.right" timestamp="1598308324266">
+    <state width="938" height="129" key="GridCell.Tab.1.right" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598308324266" />
+    <state width="938" height="129" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.2.bottom" timestamp="1598294544603">
+    <state width="938" height="129" key="GridCell.Tab.2.bottom" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544603" />
+    <state width="938" height="129" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.2.center" timestamp="1598294544603">
+    <state width="938" height="129" key="GridCell.Tab.2.center" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544603" />
+    <state width="938" height="129" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.2.left" timestamp="1598294544603">
+    <state width="938" height="129" key="GridCell.Tab.2.left" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544603" />
+    <state width="938" height="129" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.2.right" timestamp="1598294544603">
+    <state width="938" height="129" key="GridCell.Tab.2.right" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544603" />
+    <state width="938" height="129" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909568" />
-    <state width="1877" height="129" key="GridCell.Tab.3.bottom" timestamp="1598294544604">
+    <state width="938" height="129" key="GridCell.Tab.3.bottom" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544604" />
+    <state width="938" height="129" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909569" />
-    <state width="1877" height="129" key="GridCell.Tab.3.center" timestamp="1598294544604">
+    <state width="938" height="129" key="GridCell.Tab.3.center" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544604" />
+    <state width="938" height="129" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909569" />
-    <state width="1877" height="129" key="GridCell.Tab.3.left" timestamp="1598294544603">
+    <state width="938" height="129" key="GridCell.Tab.3.left" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544603" />
+    <state width="938" height="129" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909569" />
-    <state width="1877" height="129" key="GridCell.Tab.3.right" timestamp="1598294544604">
+    <state width="938" height="129" key="GridCell.Tab.3.right" timestamp="1598402870941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="129" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598294544604" />
+    <state width="938" height="129" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598402870941" />
     <state width="1860" height="128" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598176909569" />
-    <state x="2708" y="205" key="RiderGenerateDialog" timestamp="1598171439583">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="788" y="205" key="RiderGenerateDialog" timestamp="1598338981462">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598144894347" />
+    <state x="788" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598338981462" />
     <state x="2708" y="205" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598171439583" />
     <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1597907270276">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -348,9 +422,10 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597982830139" />
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598132057729" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598218101825">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598398456206">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598218101825" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598398456206" />
   </component>
 </project>

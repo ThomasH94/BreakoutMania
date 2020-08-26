@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5b2a052713c33498d7408cd2ba3931, type: 3}
   m_Name: MultiBallPowerup
   m_EditorClassIdentifier: 
-  dataName: 
   dataDescription: 
-  collectablePrefab: {fileID: 1304866119215923337, guid: dfa7c61f18d9f7442adedcd99fe564ab,
+  collectiblePrefab: {fileID: 1304866119215923337, guid: dfa7c61f18d9f7442adedcd99fe564ab,
     type: 3}
   scoreAmount: 40
   collectSound: {fileID: 8300000, guid: c0b176b67a0734d46b6df8e961fdafe0, type: 3}
-  collectableWeight: 20
+  collectibleWeight: 10
